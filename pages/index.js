@@ -33,11 +33,11 @@ export default function Home(props) {
               Resumo do post
             </p>
             <Image
-        src={project.img}
-        alt="Picture of the author"
-        width={500}
-        height={500}
-      />
+              src={project.img}
+              alt="Picture of the author"
+              width={500}
+              height={500}
+            />
           </article>
           )
         })}
