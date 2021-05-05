@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link';
 import styled from 'styled-components'
+import Image from 'next/image'
 import db from '../db.json';
 
 const Title = styled.h1`
@@ -31,6 +32,12 @@ export default function Home(props) {
             <p>
               Resumo do post
             </p>
+            <Image
+        src={project.img}
+        alt="Picture of the author"
+        width={500}
+        height={500}
+      />
           </article>
           )
         })}

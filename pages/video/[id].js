@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import content from '../../db.json';
 
 export default function Video(video) {
@@ -7,6 +8,13 @@ export default function Video(video) {
       <div>
           Id: {video.video.id}
         <p>video {video.video.nome}</p>
+        <Image
+        src={video.video.img}
+        alt="Picture of the author"
+        width={500}
+        height={500}
+      />
+
       </div>
     )
   }
