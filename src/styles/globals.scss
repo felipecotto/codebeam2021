@@ -20,11 +20,11 @@ a {
 
 @font-face {
   font-family: 'codebeambr';
-  src:  url('./icons/codebeambr.eot?x3xsmq');
-  src:  url('./icons/codebeambr.eot?x3xsmq#iefix') format('embedded-opentype'),
-    url('./icons/codebeambr.ttf?x3xsmq') format('truetype'),
-    url('./icons/codebeambr.woff?x3xsmq') format('woff'),
-    url('./icons/codebeambr.svg?x3xsmq#codebeambr') format('svg');
+  src:  url('../../public/icons/codebeambr.eot?x3xsmq');
+  src:  url('../../public/icons/codebeambr.eot?x3xsmq#iefix') format('embedded-opentype'),
+    url('../../public/icons/codebeambr.ttf?x3xsmq') format('truetype'),
+    url('../../public/icons/codebeambr.woff?x3xsmq') format('woff'),
+    url('../../public/icons/codebeambr.svg?x3xsmq#codebeambr') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
