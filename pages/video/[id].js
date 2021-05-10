@@ -34,11 +34,11 @@ export default function Video(video) {
                   <a className={styles.goToHome}> Voltar Para Home </a>
                 </Link>
                 <div className={styles.videoContainer}>
-                <video width="100%" height="400" controls>
+                {/* <video width="100%" height="400" controls>
                   <source src="/videos/AdolfoAskMeAnything-1.mp4" type="video/mp4" />
                   <source src="movie.ogg" type="video/ogg" />
                 Your browser does not support the video tag.
-                </video>
+                </video> */}
                   <h2>{video.video.nome}</h2>
                   <p>v{video.video.descricao}</p>
                 </div>
