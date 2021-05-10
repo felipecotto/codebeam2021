@@ -1,0 +1,68 @@
+.footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 56px 0;
+  font-size: 24px;
+  position: relative;
+  h3 {
+    margin: 0;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
+  a {
+    display: block;
+    &:hover {
+      color: #ffffff; 
+      opacity: .7;
+      text-decoration: none;
+    }
+  }
+}
+.brFlag {
+  font-size: 56px;
+  position: absolute;
+  bottom: 32px;
+  right: 32px;
+}
+.mainLink {
+  word-wrap: break-word;
+  font-size: 1.5rem;
+}
+.contactMail {
+  margin-bottom: 32px;
+}
+.brandHolder {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  a {
+    width: 100%;
+    text-align: left;
+    margin: 16px auto;
+    img {
+      width: 120px;
+    }
+  }
+}
+
+.socialNav {
+  display: flex;
+  margin-bottom: 32px;
+
+  & .socialLink {
+      color: rgba(78, 185, 19, 1);
+      margin-right: 16px;
+      padding: 8px;
+  
+      &:hover {
+          color: rgba(255,255,255,1);
+          text-decoration: none;
+      }
+  }
+  & .alt {
+      margin-right: 16px;
+      padding: 8px;
+      color: #ff004e;
+  }
+}

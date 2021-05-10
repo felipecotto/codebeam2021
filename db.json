@@ -1,23 +1,138 @@
 [
-  {
-    "id" : 1, 
-    "nome" : "Name",
-    "img" : "https://teste-vercel-nine.vercel.app/adolfo.jpg"
-  },
-  {
-    "id" : 2, 
-    "nome" : "Name 02",
-    "img" : "https://teste-vercel-nine.vercel.app/adolfo.jpg"
-  },
-  {
-    "id" : 3, 
-    "nome" : "Name 03",
-    "img" : "https://teste-vercel-nine.vercel.app/adolfo.jpg"
-  },
-  {
-    "id" : 4, 
-    "nome" : "Name 04",
-    "img" : "https://teste-vercel-nine.vercel.app/adolfo.jpg"
-  }
-] 
-
+    {
+      "id" : 1, 
+      "nome" : "Adolfo",
+      "palestra" : "Ask me Anything",
+      "img" : "https://teste-vercel-nine.vercel.app/thumbs/adolfo.jpg",
+      "video" : "",
+      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id" : 2, 
+      "nome" : "Juliana Helena",
+      "palestra" : "Como programação funcional me tornou uma melhor desenvolvedora Java",
+      "img" : "https://teste-vercel-nine.vercel.app/thumbs/julianahelena.jpg",
+      "video" : "",
+      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    },
+    {
+      "id" : 3, 
+      "nome" : "Adolfo",
+      "palestra" : "Como Podcasts Também Podem Te Ajudar A Aprender Elixir E Desenvolver Melhor",
+      "img" : "https://teste-vercel-nine.vercel.app/thumbs/adolfo.jpg",
+      "video" : "",
+      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+    },
+    {
+      "id" : 4, 
+      "nome" : "Amadeu e Weverton",
+      "palestra" : "Construindo E Distribuindo Clis Com Elixir",
+      "img" : "https://teste-vercel-nine.vercel.app/thumbs/amadeuweverton.jpg",
+      "video" : "",
+      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+    },
+    {
+      "id" : 5, 
+      "nome" : "Willian",
+      "palestra" : "E se o Ecto fosse uma receita de bolo",
+      "img" : "https://teste-vercel-nine.vercel.app/thumbs/willian.jpg",
+      "video" : "",
+      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+    },
+    {
+      "id" : 6, 
+      "nome" : "Ulisses",
+      "palestra" : "Como organizar seus projetos em Elixir",
+      "img" : "https://teste-vercel-nine.vercel.app/thumbs/ulisses.jpg",
+      "video" : "",
+      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+    },
+    {
+      "id" : 7, 
+      "nome" : "Renan Ranelli",
+      "palestra" : "Técnicas de polimorfismo em Elixir",
+      "img" : "https://teste-vercel-nine.vercel.app/thumbs/renanranelli.jpg",
+      "video" : "",
+      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+    },
+    {
+      "id" : 8, 
+      "nome" : "Philip Sampaio",
+      "palestra" : "Vantagens e abordagens de um sistema Elixir em cluster",
+      "img" : "https://teste-vercel-nine.vercel.app/thumbs/philipsampaio.jpg",
+      "video" : "",
+      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+    },
+    {
+      "id" : 9, 
+      "nome" : "Philip Sampaio",
+      "palestra" : "Ask me Anything",
+      "img" : "https://teste-vercel-nine.vercel.app/thumbs/philipsampaio.jpg",
+      "video" : "",
+      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+    },
+    {
+      "id" : 10, 
+      "nome" : "Mariano e Robert",
+      "palestra" : "BEAM Language, Ecosystem Past, Present and Future",
+      "img" : "https://teste-vercel-nine.vercel.app/thumbs/marianorobert.jpg",
+      "video" : "",
+      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+    },
+    {
+      "id" : 11, 
+      "nome" : "Leandro",
+      "palestra" : "Contribuindo com o Elixir e o ecossistema",
+      "img" : "https://teste-vercel-nine.vercel.app/thumbs/leandro.jpg",
+      "video" : "",
+      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+    },
+    {
+      "id" : 12, 
+      "nome" : "Jason Axelson",
+      "palestra" : "A visual tool to understand Elixir recompilation",
+      "img" : "https://teste-vercel-nine.vercel.app/thumbs/jasonaxelson.jpg",
+      "video" : "",
+      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+    },
+    {
+      "id" : 13, 
+      "nome" : "Ingela",
+      "palestra" : "Do not break windows - or why your teste code is important",
+      "img" : "https://teste-vercel-nine.vercel.app/thumbs/Ingela.jpg",
+      "video" : "",
+      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+    },
+    {
+      "id" : 14, 
+      "nome" : "Charlotte",
+      "palestra" : "Ask me Anything",
+      "img" : "https://teste-vercel-nine.vercel.app/thumbs/Ingela.jpg",
+      "video" : "",
+      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+    },
+    {
+      "id" : 15, 
+      "nome" : "Carolina Pascale",
+      "palestra" : "Construindo uma base de código sustentável com FP",
+      "img" : "https://teste-vercel-nine.vercel.app/thumbs/carolinapascale.jpg",
+      "video" : "",
+      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+    },
+    {
+      "id" : 16, 
+      "nome" : "Brooklin",
+      "palestra" : "Ask me Anything",
+      "img" : "https://teste-vercel-nine.vercel.app/thumbs/brooklin.jpg",
+      "video" : "",
+      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+    },
+    {
+      "id" : 17, 
+      "nome" : "Brooklin",
+      "palestra" : "Ask me Anything",
+      "img" : "https://teste-vercel-nine.vercel.app/thumbs/brooklin.jpg",
+      "video" : "",
+      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+    }
+  ] 

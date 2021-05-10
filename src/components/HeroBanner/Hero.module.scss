@@ -1,0 +1,21 @@
+.hero {
+    background-image: url('../../img/bg01.jpg');
+    color: #fff;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    h1 {
+        font-size: 48px;
+        line-height: 64px;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 300;
+        margin-bottom: 32px;
+    }
+}
