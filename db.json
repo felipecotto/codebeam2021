@@ -4,7 +4,7 @@
       "nome" : "Adolfo",
       "palestra" : "Ask me Anything",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/adolfo.jpg",
-      "video" : "",
+      "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/AdolfoAskMeAnything.mp4",
       "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
     {
@@ -12,7 +12,7 @@
       "nome" : "Juliana Helena",
       "palestra" : "Como programação funcional me tornou uma melhor desenvolvedora Java",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/julianahelena.jpg",
-      "video" : "",
+      "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/JulianaHelenaComoprogramaçãofuncionalmetornouumamelhordesenvolvedoraJava.mp4",
       "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
     },
     {
@@ -20,7 +20,7 @@
       "nome" : "Adolfo",
       "palestra" : "Como Podcasts Também Podem Te Ajudar A Aprender Elixir E Desenvolver Melhor",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/adolfo.jpg",
-      "video" : "",
+      "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/AdolfoComopodcaststambémpodemteajudaraaprenderElixirdesenvolvermelhor.mp4",
       "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
     },
     {
@@ -28,7 +28,7 @@
       "nome" : "Amadeu e Weverton",
       "palestra" : "Construindo E Distribuindo Clis Com Elixir",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/amadeuweverton.jpg",
-      "video" : "",
+      "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/AmadeueWevertonConstruindoedistribuindoCLIscomElixir.mp4",
       "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
     },
     {
@@ -36,7 +36,7 @@
       "nome" : "Willian",
       "palestra" : "E se o Ecto fosse uma receita de bolo",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/willian.jpg",
-      "video" : "",
+      "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/WillianEseoEctofosseumareceitadebolo.mp4",
       "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
     },
     {
@@ -44,7 +44,7 @@
       "nome" : "Ulisses",
       "palestra" : "Como organizar seus projetos em Elixir",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/ulisses.jpg",
-      "video" : "",
+      "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/UlissesComoorganizarseusprojetosemElixir.mp4",
       "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
     },
     {
@@ -52,7 +52,7 @@
       "nome" : "Renan Ranelli",
       "palestra" : "Técnicas de polimorfismo em Elixir",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/renanranelli.jpg",
-      "video" : "",
+      "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/RenanRanelliTécnicasdepolimorfismoemElixir.mp4",
       "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
     },
     {
@@ -60,7 +60,7 @@
       "nome" : "Philip Sampaio",
       "palestra" : "Vantagens e abordagens de um sistema Elixir em cluster",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/philipsampaio.jpg",
-      "video" : "",
+      "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/PhilipSampaioVantagenseabordagensdeumsistemaElixiremcluster.mp4",
       "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
     },
     {
@@ -68,7 +68,7 @@
       "nome" : "Philip Sampaio",
       "palestra" : "Ask me Anything",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/philipsampaio.jpg",
-      "video" : "",
+      "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/PhilipSampaioAskmeAnything.mp4",
       "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
     },
     {
@@ -76,7 +76,7 @@
       "nome" : "Mariano e Robert",
       "palestra" : "BEAM Language, Ecosystem Past, Present and Future",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/marianorobert.jpg",
-      "video" : "",
+      "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/MarianoeRobertBEAMLanguageEcosystemPastPresentandFuture.mp4",
       "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
     },
     {
@@ -84,7 +84,7 @@
       "nome" : "Leandro",
       "palestra" : "Contribuindo com o Elixir e o ecossistema",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/leandro.jpg",
-      "video" : "",
+      "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/LeandroContribuindocom Elixireoecossistema.mp4",
       "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
     },
     {
@@ -92,23 +92,23 @@
       "nome" : "Jason Axelson",
       "palestra" : "A visual tool to understand Elixir recompilation",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/jasonaxelson.jpg",
-      "video" : "",
+      "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/JasonAxelsonAvisualtooltounderstandElixirrecompilation.mp4",
       "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
     },
     {
       "id" : 13, 
       "nome" : "Ingela",
       "palestra" : "Do not break windows - or why your teste code is important",
-      "img" : "https://codebeambr-homol.vercel.app/thumbs/Ingela.jpg",
-      "video" : "",
+      "img" : "https://codebeambr-homol.vercel.app/thumbs/ingela.jpg",
+      "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/IngelaDonotbreakwindowsorwhyyourtestcodeisimportant.mp4",
       "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
     },
     {
       "id" : 14, 
       "nome" : "Charlotte",
       "palestra" : "Ask me Anything",
-      "img" : "https://codebeambr-homol.vercel.app/thumbs/Ingela.jpg",
-      "video" : "",
+      "img" : "https://codebeambr-homol.vercel.app/thumbs/charlotte.jpg",
+      "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/CharlotteAskmeAnything.mp4",
       "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
     },
     {
@@ -116,23 +116,31 @@
       "nome" : "Carolina Pascale",
       "palestra" : "Construindo uma base de código sustentável com FP",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/carolinapascale.jpg",
-      "video" : "",
+      "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/CarolinaPascaleConstruindoumabasedecódigosustentávelcomFP.mp4",
       "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
     },
     {
       "id" : 16, 
       "nome" : "Brooklin",
       "palestra" : "Ask me Anything",
-      "img" : "https://codebeambr-homol.vercel.app/thumbs/brooklin.jpg",
-      "video" : "",
+      "img" : "https://codebeambr-homol.vercel.app/thumbs/brooklyn.jpg",
+      "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/BrooklynAskMeAnything.mp4",
       "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
     },
     {
       "id" : 17, 
       "nome" : "Brooklin",
-      "palestra" : "Ask me Anything",
-      "img" : "https://codebeambr-homol.vercel.app/thumbs/brooklin.jpg",
-      "video" : "",
+      "palestra" : "Exceptional Staying on the Happy Path",
+      "img" : "https://codebeambr-homol.vercel.app/thumbs/brooklyn.jpg",
+      "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/BrooklynExceptionalStayingontheHappyPath.mp4",
+      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+    },
+    {
+      "id" : 18, 
+      "nome" : "Bernardo Amorim",
+      "palestra" : "A demanda por GenStage",
+      "img" : "https://codebeambr-homol.vercel.app/thumbs/bernardoamorim.jpg",
+      "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/BernardoAmorimAdemandaporGenStage.mp4",
       "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
     }
   ] 

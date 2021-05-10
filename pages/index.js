@@ -12,11 +12,9 @@ import db from '../db.json';
 import {  FacebookShareButton, LinkedinShareButton, TwitterShareButton, EmailShareButton } from 'react-share'
 import { FacebookIcon, LinkedinIcon, TwitterIcon, EmailIcon } from 'react-share'
 
-const iconColor = {
-  "primary" : "#000000"
-};
-
 export default function Home(props) {
+  const limitVIdeos = 8;
+
   return (
     <>
       <Head>
@@ -39,11 +37,11 @@ export default function Home(props) {
             <h2>2020</h2>
           </div>
           
-          <div className="row">
-          {props.data.map((project) => {
+          <div className="row d-flex-wrap">
+          {props.data.slice(0,limitVIdeos).map((project) => {
           return (
             <div className="col-md-3">
-              <article className="postsContainer__post" key={project.id}>
+              <article className={styles.postsContainer__post} key={project.id}>
                 <Link href={`/video/${encodeURIComponent(project.id)}`}>
                   <div style={{ marginBottom: '24px' }}>
                     <Image
@@ -82,6 +80,11 @@ export default function Home(props) {
             </div>
           )
         })}
+          </div>
+          <div className={styles.ShowMore}>
+            <Link href="">
+                <a>Ver Mais</a>
+              </Link>
           </div>
         </div>
       </section>

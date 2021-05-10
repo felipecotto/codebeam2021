@@ -34,13 +34,13 @@ export default function Video(video) {
                   <a className={styles.goToHome}> Voltar Para Home </a>
                 </Link>
                 <div className={styles.videoContainer}>
-                {/* <video width="100%" height="400" controls>
-                  <source src="/videos/AdolfoAskMeAnything-1.mp4" type="video/mp4" />
-                  <source src="movie.ogg" type="video/ogg" />
+                <video width="100%" height="400" controls>
+                  <source src={video.video.video} type="video/mp4" />
                 Your browser does not support the video tag.
-                </video> */}
-                  <h2>{video.video.nome}</h2>
-                  <p>v{video.video.descricao}</p>
+                </video>
+                  <h2>{video.video.palestra}</h2>
+                  <h3>{video.video.nome}</h3>
+                  {/* <p>v{video.video.descricao}</p> */}
                 </div>
                 <div className={styles.socialShare}>
                   <p>Compartilhe</p>
@@ -110,7 +110,77 @@ export default function Video(video) {
               params: {
                   id: '4'
               }
-            }
+            },
+            {
+              params: {
+                  id: '5'
+              }
+            },
+            {
+              params: {
+                  id: '6'
+              }
+            },
+            {
+              params: {
+                  id: '7'
+              }
+            },
+            {
+              params: {
+                  id: '8'
+              }
+            },
+            {
+              params: {
+                  id: '9'
+              }
+            },
+            {
+              params: {
+                  id: '10'
+              }
+            },
+            {
+              params: {
+                  id: '11'
+              }
+            },
+            {
+              params: {
+                  id: '12'
+              }
+            },
+            {
+              params: {
+                  id: '13'
+              }
+            },
+            {
+              params: {
+                  id: '14'
+              }
+            },
+            {
+              params: {
+                  id: '15'
+              }
+            },
+            {
+              params: {
+                  id: '16'
+              }
+            },
+            {
+              params: {
+                  id: '17'
+              }
+            },
+            {
+              params: {
+                  id: '18'
+              }
+            },
         ],
         fallback: false,
     };

@@ -3,6 +3,10 @@
     padding: 90px;
     color: #ffffff;
 
+    .postsContainer__post {
+        margin-bottom: 48px;
+    }
+
     .title {
         display: flex;
         justify-content: space-between;
@@ -50,6 +54,14 @@
             color: #fff;
             margin-bottom: 16px;
             text-transform: uppercase;
+        }
+    }
+    .ShowMore {
+        text-align: center;
+        a {
+            background-color: #4eb913;
+            display: inline-block;
+            padding: 12px 32px;
         }
     }
 }
