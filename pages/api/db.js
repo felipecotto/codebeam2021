@@ -1,4 +1,3 @@
-import videos from '../../videos.js';
 
 export default function dbHandler(request, response) {
   if (request.method === 'OPTIONS') {
