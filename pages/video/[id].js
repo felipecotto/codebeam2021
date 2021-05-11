@@ -6,11 +6,12 @@ import styles from './Video.module.scss';
 import Footer from '../../src/components/Footer';
 import Sponsors from '../../src/components/Sponsors';
 import Link from 'next/link';
+import db from '../../db.json';
 import {  FacebookShareButton, LinkedinShareButton, TwitterShareButton, EmailShareButton } from 'react-share'
 import { FacebookIcon, LinkedinIcon, TwitterIcon, EmailIcon } from 'react-share'
 
 export default function Video(video) {
-    console.log(video)
+
     return (
       <>
         <Head>
@@ -65,7 +66,17 @@ export default function Video(video) {
                 </div>
               </div>
             </div>
-
+            {/* <div className="row">
+              <div className="col-md-offset-2 col-md-8">
+                <h3>Videos Relacionados</h3>
+                   {randomDb.slice(0,3).map((index) => {
+                    return (
+                      <div key={index.id}>
+                        {index.id}</div>
+                    )
+                  })}
+              </div>
+            </div> */}
 
           </div>
         </section>
@@ -86,6 +97,7 @@ export default function Video(video) {
           video
         }
       }
+ 
   }
 
   export async function getStaticPaths() {
