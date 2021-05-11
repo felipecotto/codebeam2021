@@ -40,7 +40,7 @@ export default function Video(video) {
                 </video>
                   <h2>{video.video.palestra}</h2>
                   <h3>{video.video.nome}</h3>
-                  {/* <p>v{video.video.descricao}</p> */}
+                  <p>{video.video.descricao}</p>
                 </div>
                 <div className={styles.socialShare}>
                   <p>Compartilhe</p>

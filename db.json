@@ -1,11 +1,11 @@
 [
     {
       "id" : 1, 
-      "nome" : "Adolfo",
+      "nome" : "Adolfo Neto",
       "palestra" : "Ask me Anything",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/adolfo.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/AdolfoAskMeAnything.mp4",
-      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+      "descricao" : "Sessão de perguntas e respostas com o Adolfo Neto."
     },
     {
       "id" : 2, 
@@ -13,15 +13,15 @@
       "palestra" : "Como programação funcional me tornou uma melhor desenvolvedora Java",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/julianahelena.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/JulianaHelenaComoprogramaçãofuncionalmetornouumamelhordesenvolvedoraJava.mp4",
-      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+      "descricao" : "Programação Funcional é um tema que está bastante em alta atualmente, e discussões sobre seus benefícios se tornam cada vez mais comuns, além de levantar a dúvida: Isso vai substituir o paradigma Orientado a Objetos? Preciso aprender só Funcional agora? Porém, e se você pudesse se tornar melhor como pessoa programadora em orientação a objetos aprendendo sobre conceitos Funcionais? Durante um tempo trabalhei com Programação Funcional e me apaixonei por Elixir, mas recentemente mudei de emprego e me vi com o desafio de voltar a lidar com Orientação a Objetos em Java. Um dos fatos que mais me surpreenderam, além da troca de paradigmas, foi o impacto positivo que conhecer Funcional trouxe para minha realidade atual. Nessa palestra pretendo compartilhar sobre como foi minha experiência navegando entre esses dois mundos: FP e POO, e como é possível aplicar conceitos Funcionais, como imutabilidade, até mesmo com o nosso velho e conhecido Java."
     },
     {
       "id" : 3, 
-      "nome" : "Adolfo",
+      "nome" : "Adolfo Neto",
       "palestra" : "Como Podcasts Também Podem Te Ajudar A Aprender Elixir E Desenvolver Melhor",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/adolfo.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/AdolfoComopodcaststambémpodemteajudaraaprenderElixirdesenvolvermelhor.mp4",
-      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+      "descricao" : "Alguns tipos de conhecimento são melhor compartilhados e apreendidos através de áudios de longa duração, os podcasts. A comunidade de Elixir é rica em podcasts. Temos 5 podcasts ativos: Elixir Talk, Elixir Mix, Elixir Outlaws, Elixir Wizards e Thinking Elixir. Nesta palestra pretendo descrever estes podcasts e mostrar como eles podem nos ajudar a sermos melhores desenvolvedores de software."
     },
     {
       "id" : 4, 
@@ -29,7 +29,7 @@
       "palestra" : "Construindo E Distribuindo Clis Com Elixir",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/amadeuweverton.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/AmadeueWevertonConstruindoedistribuindoCLIscomElixir.mp4",
-      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+      "descricao" : "Pensando em facilitar nossa vida e estudar Elixir, imaginamos: que tal construir um utilitário para ajudar no pair-programming no dia-a-dia? Começamos então a desenvolver o nosso CLI usando Elixir e nos deparamos com vários desafios, até chegar na distribuição do utilitário. Nessa talk gostaríamos de compartilhar os aprendizados e incentivar (ou não) a criação de CLIs usando Elixir."
     },
     {
       "id" : 5, 
@@ -37,7 +37,7 @@
       "palestra" : "E se o Ecto fosse uma receita de bolo",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/willian.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/WillianEseoEctofosseumareceitadebolo.mp4",
-      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+      "descricao" : "Lidar com banco de dados não precisa ser algo complicado quando desenvolvendo uma aplicação web. Vamos ver como alcançar a produtividade com o Ecto e como montar aplicações poderosas!"
     },
     {
       "id" : 6, 
@@ -45,7 +45,7 @@
       "palestra" : "Como organizar seus projetos em Elixir",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/ulisses.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/UlissesComoorganizarseusprojetosemElixir.mp4",
-      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+      "descricao" : "Essa palestra irá explorar várias práticas de organização de diretórios e arquivos em projetos Elixir. Vamos explorar alguma práticas comuns não só em Elixir como no desenvolvimento de software em geral, como por exemplo, MVC, Camadas, Contextos e arquitetura hexagonal. Aqui, iremos discutir vantagens e desvantagens de cada uma das práticas e evidenciar o que os projetos Elixir Open Source tem adotado. No final da palestra, você será capaz de comparar e decidir melhor que práticas adotar no seu projeto em Elixir."
     },
     {
       "id" : 7, 
@@ -53,7 +53,7 @@
       "palestra" : "Técnicas de polimorfismo em Elixir",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/renanranelli.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/RenanRanelliTécnicasdepolimorfismoemElixir.mp4",
-      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+      "descricao" : "Um dos problemas mais comuns quando adotamos programação funcional é a nossa desfamiliarização com tecnicas de polimorfismo: Muitas das tecnicas de orientação a objetos como herança, design patterns, encapsulamento, não encontram correspondentes diretos no paradigma funcional. O resultado disso é que muito código funcional em produção é na verdade rígido, díficil de se alterar e pensar sobre -- O que acaba por derrotar uma das ditas vantagens da programação funcional: código facil de entender Nesta palestra vamos explorar algumas formas comuns com que este código rígido acaba chegando em produção, além de explorar alternativas mais polimórficas. Além de falarmos sobre behaviours e protocolos, também vamos abordar tecnicas de data as code e como estas podem ajudar a melhorar a qualidade do nosso código funcional."
     },
     {
       "id" : 8, 
@@ -61,7 +61,7 @@
       "palestra" : "Vantagens e abordagens de um sistema Elixir em cluster",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/philipsampaio.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/PhilipSampaioVantagenseabordagensdeumsistemaElixiremcluster.mp4",
-      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+      "descricao" : "Nessa palestra vou explorar como funciona a distribuição de nós com Elixir, e quais as vantagens e desvantagens de se trabalhar em um ambiente multi nós. Mostrarei exemplos de como configurar o sua aplicação em diferentes cenários, bem como quais os principais problemas enfrentados e como contorná-los."
     },
     {
       "id" : 9, 
@@ -69,7 +69,7 @@
       "palestra" : "Ask me Anything",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/philipsampaio.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/PhilipSampaioAskmeAnything.mp4",
-      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+      "descricao" : "Sessão de perguntas e respostas com o Philip."
     },
     {
       "id" : 10, 
@@ -77,7 +77,7 @@
       "palestra" : "BEAM Language, Ecosystem Past, Present and Future",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/marianorobert.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/MarianoeRobertBEAMLanguageEcosystemPastPresentandFuture.mp4",
-      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+      "descricao" : ""
     },
     {
       "id" : 11, 
@@ -85,7 +85,7 @@
       "palestra" : "Contribuindo com o Elixir e o ecossistema",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/leandro.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/LeandroContribuindocom Elixireoecossistema.mp4",
-      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+      "descricao" : "Você já teve vontade de contribuir pro ecossistema Elixir mas ficou na dúvida do que fazer or ficou com receio que sua contribuição não seria boa o suficiente? Nesta talk, você irá aprender dicas e truques práticos para dar os primeiros passos. Contribuir para o ecossistema Elixir é uma tarefa gratificante, do tipo que te dá um bom feeling de retribuir de volta e também pode melhorar suas habilidades técnicas. Mas fazer isso pode ser desafiador para muitas pessoas: onde e como começar, como entender a base de código de um projeto, quais opções você tem para contribuir, o medo de enviar um código que pode ser rejeitado ou dizer o que pensa, ansiedade em tentar escrever um código perfeito antes de abrir um pull request. Há muitos impedimentos no caminho, mas acontece que pode ser mais fácil do que imagina. Vamos explorar dicas e truques práticos para diferentes formas de contribuir com o ecossistema e eu espero poder mostrar um caminho claro e lhe motivar a começar a contribuir ou mesmo abrir os olhos para outras opções."
     },
     {
       "id" : 12, 
@@ -93,7 +93,7 @@
       "palestra" : "A visual tool to understand Elixir recompilation",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/jasonaxelson.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/JasonAxelsonAvisualtooltounderstandElixirrecompilation.mp4",
-      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+      "descricao" : "Nesta talk, Jason vai mostrar uma ferramenta na qual está trabalhando para ajudar os desenvolvedores do Elixir a entender por que alguns de seus projetos parecem recompilar tantos arquivos a cada mudança junto com algumas técnicas para localizar e minimizar a recompilação."
     },
     {
       "id" : 13, 
@@ -101,7 +101,7 @@
       "palestra" : "Do not break windows - or why your teste code is important",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/ingela.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/IngelaDonotbreakwindowsorwhyyourtestcodeisimportant.mp4",
-      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+      "descricao" : ""
     },
     {
       "id" : 14, 
@@ -109,7 +109,7 @@
       "palestra" : "Ask me Anything",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/charlotte.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/CharlotteAskmeAnything.mp4",
-      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+      "descricao" : ""
     },
     {
       "id" : 15, 
@@ -117,7 +117,7 @@
       "palestra" : "Construindo uma base de código sustentável com FP",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/carolinapascale.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/CarolinaPascaleConstruindoumabasedecódigosustentávelcomFP.mp4",
-      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+      "descricao" : "Como engenheiros de software, estamos sempre tentando ser mais produtivos, entregar um código melhor e ter um feedback do desenvolvimento mais rápido. Nesta palestra, vamos explorar como a programação funcional, os testes e a arquitetura hexagonal podem ter um ótimo desempenho juntos, a fim de oferecer suporte a uma base de código sustentável para centenas de engenheiros e serviços. Mergulhando mais fundo em como podemos levar a arquitetura hexagonal com rejeição de dependências para desacoplar decisões de efeitos, resultando em um código mais fácil de raciocinar, compor e testar. A base de código não é a única que tira vantagens disso, mas também os desenvolvedores. Isso ajuda todos a se sentirem mais confortáveis e envolvidos com a manutenção de boas práticas. Isso já está provado que funciona muito bem no Nubank, que é considerado o melhor banco do Brasil pela Forbes."
     },
     {
       "id" : 16, 
@@ -125,7 +125,7 @@
       "palestra" : "Ask me Anything",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/brooklyn.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/BrooklynAskMeAnything.mp4",
-      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+      "descricao" : "Sessão de perguntas e respostas com a Brooklyn."
     },
     {
       "id" : 17, 
@@ -133,7 +133,7 @@
       "palestra" : "Exceptional Staying on the Happy Path",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/brooklyn.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/BrooklynExceptionalStayingontheHappyPath.mp4",
-      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+      "descricao" : "Elixir tem vários tipos de tratamento de erros, incluindo tuplas marcadas, erros de correspondência manual, com blocos e levantando exceções. As estruturas de exceção incorporadas são as mais alinhadas com o ethos da linguagem e, ainda assim, as únicas facilidades para trabalhar com elas são as menos seguras. Exceptional é uma biblioteca flexível para tratamento de erros puramente funcional que estende os recursos de exceção padrão. Isso permite que os desenvolvedores permaneçam no caminho certo enquanto adicionam contexto e clareza sobre quais erros podem ocorrer. Esta palestra cobre a filosofia da Exceptional e demonstra casos de uso comuns da biblioteca."
     },
     {
       "id" : 18, 
@@ -141,6 +141,6 @@
       "palestra" : "A demanda por GenStage",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/bernardoamorim.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/BernardoAmorimAdemandaporGenStage.mp4",
-      "descricao" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut"
+      "descricao" : "Uma introdução ao GenStage. Vamos falar dos conceitos por trás. Desde os básicos como produtor, consumidor e produtor-consumidor e como o GensTage é modelado pensado em demanda e como isso ajuda com back-pressure. Vamos falar também de alguns detalhes interessantes, como o Buffer e os Dispatchers. Vamos falar por alto de topologia e supervisionamento. Por fim, vamos olhar para outras duas bibliotecas que utilizam o GenStage por trás: Flow e Broadway."
     }
   ] 
