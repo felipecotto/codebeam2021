@@ -58,10 +58,16 @@
     }
     .ShowMore {
         text-align: center;
-        a {
+        padding: 32px;
+        button {
             background-color: #4eb913;
             display: inline-block;
             padding: 12px 32px;
+            border: none;
+            font-size: 16px;
+            &:hover {
+                opacity: .7;
+            }
         }
     }
 }

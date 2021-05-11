@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 import Head from 'next/head'
 import VideoThumb from '../src/components/VideoThumb'
 import HeroBanner from '../src/components/HeroBanner'
@@ -13,8 +13,8 @@ import {  FacebookShareButton, LinkedinShareButton, TwitterShareButton, EmailSha
 import { FacebookIcon, LinkedinIcon, TwitterIcon, EmailIcon } from 'react-share'
 
 export default function Home(props) {
-  const limitVIdeos = 8;
-
+  const [limitVideos, setLimitVideos] = useState(8);
+  console.log(limitVideos);
   return (
     <>
       <Head>
@@ -38,7 +38,7 @@ export default function Home(props) {
           </div>
           
           <div className="row d-flex-wrap">
-          {props.data.slice(0,limitVIdeos).map((project) => {
+          {props.data.slice(0,limitVideos).map((project) => {
           return (
             <div className="col-md-3">
               <article className={styles.postsContainer__post} key={project.id}>
@@ -81,11 +81,13 @@ export default function Home(props) {
           )
         })}
           </div>
-          <div className={styles.ShowMore}>
-            <Link href="">
-                <a>Ver Mais</a>
-              </Link>
-          </div>
+            {limitVideos <= 17 &&
+              <div className={styles.ShowMore}>
+              <button onClick={() => setLimitVideos(limitVideos + 4)}>
+                Ver Mais
+              </button>
+              </div>
+            } 
         </div>
       </section>
       <Sponsors />
