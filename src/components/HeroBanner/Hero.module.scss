@@ -1,5 +1,6 @@
 .hero {
-    background-image: url('../../img/bg01.jpg');
+    background-color: rgba(78, 185, 19, 1);
+    background-image: url('../../../public/bg01.jpg');
     color: #fff;
     min-height: 100vh;
     position: relative;
@@ -22,6 +23,8 @@
         span {
             display: block;
             font-size: 32px;
+            font-weight: 300;
+            text-transform: uppercase;
         }
     }
 }
