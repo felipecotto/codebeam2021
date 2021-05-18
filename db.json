@@ -18,22 +18,22 @@
     {
       "id" : 3, 
       "nome" : "Adolfo Neto",
-      "palestra" : "Como Podcasts Também Podem Te Ajudar A Aprender Elixir E Desenvolver Melhor",
+      "palestra" : "Como podcasts também podem te ajudar a aprender Elixir e desenvolver melhor",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/adolfo.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/AdolfoComopodcaststambémpodemteajudaraaprenderElixirdesenvolvermelhor.mp4",
       "descricao" : "Alguns tipos de conhecimento são melhor compartilhados e apreendidos através de áudios de longa duração, os podcasts. A comunidade de Elixir é rica em podcasts. Temos 5 podcasts ativos: Elixir Talk, Elixir Mix, Elixir Outlaws, Elixir Wizards e Thinking Elixir. Nesta palestra pretendo descrever estes podcasts e mostrar como eles podem nos ajudar a sermos melhores desenvolvedores de software."
     },
     {
       "id" : 4, 
-      "nome" : "Amadeu e Weverton",
-      "palestra" : "Construindo E Distribuindo Clis Com Elixir",
+      "nome" : "Amadeu Cavalcante e Weverton Timoteo",
+      "palestra" : "Construindo E Distribuindo CLIs Com Elixir",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/amadeuweverton.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/AmadeueWevertonConstruindoedistribuindoCLIscomElixir.mp4",
       "descricao" : "Pensando em facilitar nossa vida e estudar Elixir, imaginamos: que tal construir um utilitário para ajudar no pair-programming no dia-a-dia? Começamos então a desenvolver o nosso CLI usando Elixir e nos deparamos com vários desafios, até chegar na distribuição do utilitário. Nessa talk gostaríamos de compartilhar os aprendizados e incentivar (ou não) a criação de CLIs usando Elixir."
     },
     {
       "id" : 5, 
-      "nome" : "Willian",
+      "nome" : "Willian Frantz",
       "palestra" : "E se o Ecto fosse uma receita de bolo",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/willian.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/WillianEseoEctofosseumareceitadebolo.mp4",
@@ -41,7 +41,7 @@
     },
     {
       "id" : 6, 
-      "nome" : "Ulisses",
+      "nome" : "Ulisses Almeida",
       "palestra" : "Como organizar seus projetos em Elixir",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/ulisses.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/UlissesComoorganizarseusprojetosemElixir.mp4",
@@ -73,16 +73,16 @@
     },
     {
       "id" : 10, 
-      "nome" : "Mariano e Robert",
-      "palestra" : "BEAM Language, Ecosystem Past, Present and Future",
+      "nome" : "Mariano Guerra e Robert Virding",
+      "palestra" : "BEAM Language Ecosystem: Past, Present and Future",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/marianorobert.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/MarianoeRobertBEAMLanguageEcosystemPastPresentandFuture.mp4",
       "descricao" : ""
     },
     {
       "id" : 11, 
-      "nome" : "Leandro",
-      "palestra" : "Contribuindo com o Elixir e o ecossistema",
+      "nome" : "Leandro Pereira",
+      "palestra" : "Contribuindo com Elixir e o ecossistema",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/leandro.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/LeandroContribuindocom Elixireoecossistema.mp4",
       "descricao" : "Você já teve vontade de contribuir pro ecossistema Elixir mas ficou na dúvida do que fazer or ficou com receio que sua contribuição não seria boa o suficiente? Nesta talk, você irá aprender dicas e truques práticos para dar os primeiros passos. Contribuir para o ecossistema Elixir é uma tarefa gratificante, do tipo que te dá um bom feeling de retribuir de volta e também pode melhorar suas habilidades técnicas. Mas fazer isso pode ser desafiador para muitas pessoas: onde e como começar, como entender a base de código de um projeto, quais opções você tem para contribuir, o medo de enviar um código que pode ser rejeitado ou dizer o que pensa, ansiedade em tentar escrever um código perfeito antes de abrir um pull request. Há muitos impedimentos no caminho, mas acontece que pode ser mais fácil do que imagina. Vamos explorar dicas e truques práticos para diferentes formas de contribuir com o ecossistema e eu espero poder mostrar um caminho claro e lhe motivar a começar a contribuir ou mesmo abrir os olhos para outras opções."
@@ -97,15 +97,15 @@
     },
     {
       "id" : 13, 
-      "nome" : "Ingela",
-      "palestra" : "Do not break windows - or why your teste code is important",
+      "nome" : "Ingela Andin",
+      "palestra" : "Do not break windows - or why your test code is important",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/ingela.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/IngelaDonotbreakwindowsorwhyyourtestcodeisimportant.mp4",
       "descricao" : ""
     },
     {
       "id" : 14, 
-      "nome" : "Charlotte",
+      "nome" : "Charlotte Lorelei de Oliveira",
       "palestra" : "Ask me Anything",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/charlotte.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/CharlotteAskmeAnything.mp4",
@@ -121,7 +121,7 @@
     },
     {
       "id" : 16, 
-      "nome" : "Brooklin",
+      "nome" : "Brooklyn Zelenka",
       "palestra" : "Ask me Anything",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/brooklyn.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/BrooklynAskMeAnything.mp4",
@@ -129,8 +129,8 @@
     },
     {
       "id" : 17, 
-      "nome" : "Brooklin",
-      "palestra" : "Exceptional Staying on the Happy Path",
+      "nome" : "Brooklyn Zelenka",
+      "palestra" : "Exceptional: Staying on the Happy Path",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/brooklyn.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/BrooklynExceptionalStayingontheHappyPath.mp4",
       "descricao" : "Elixir tem vários tipos de tratamento de erros, incluindo tuplas marcadas, erros de correspondência manual, com blocos e levantando exceções. As estruturas de exceção incorporadas são as mais alinhadas com o ethos da linguagem e, ainda assim, as únicas facilidades para trabalhar com elas são as menos seguras. Exceptional é uma biblioteca flexível para tratamento de erros puramente funcional que estende os recursos de exceção padrão. Isso permite que os desenvolvedores permaneçam no caminho certo enquanto adicionam contexto e clareza sobre quais erros podem ocorrer. Esta palestra cobre a filosofia da Exceptional e demonstra casos de uso comuns da biblioteca."
