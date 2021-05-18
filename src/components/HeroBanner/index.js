@@ -20,7 +20,7 @@ export default function VideoThumb() {
           </div>
           <div class="col-md-7">
             <div class="main-section">
-              <h1 class="xheading up thin uppercase">O principal evento do ecossistema Earlang está de volta ao Brasil</h1>
+              <h1 class="xheading up thin uppercase">O principal evento do ecossistema Erlang está de volta ao Brasil</h1>
               <p class="thin">O país de origem do Elixir se prepara para a segunda edição da Code BEAM BR.</p>
               <p class="thin">Devido à situação da COVID 19 no país, o evento será 100% online mais uma vez, possibilitando a criação de um espaço seguro e mais acessível, com a presença de pessoas de diferentes cidades do Brasil e do mundo.</p>
               <p class="thin">Nos dias 15 e 16 de julho de 2021, de 9h às 12h GMT-3, voltaremos a reunir os principais nomes da comunidade Elixir e Erlang, com a maior parte das palestras em português.</p>
