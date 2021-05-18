@@ -6,8 +6,8 @@
     display: flex;
     align-items: center;
     h1 {
-        font-size: 48px;
-        line-height: 64px;
+        font-size: 32px;
+        line-height: 46px;
         font-weight: 300;
         text-transform: uppercase;
         margin-bottom: 40px;
@@ -17,5 +17,11 @@
         line-height: 24px;
         font-weight: 300;
         margin-bottom: 32px;
+    }
+    .eventInfo {
+        span {
+            display: block;
+            font-size: 32px;
+        }
     }
 }

@@ -2,28 +2,33 @@ import Image from 'next/image'
 import styles from './Hero.module.scss';
 
 export default function VideoThumb() {
-    return (
-      <section className={styles.hero}>
-        <div class="container">
-          <div class="row flex align-items-center">
-            <div class="col-md-5">
-              <Image 
-                alt="Logo - Code Beam BR" 
-                src="/code-beam-br.png" 
-                width={360}
-                height={360}
-                  />
+  return (
+    <section className={styles.hero}>
+      <div class="container">
+        <div class="row flex align-items-center">
+          <div class="col-md-5">
+            <Image
+              alt="Logo - Code Beam BR"
+              src="/code-beam-br.png"
+              width={360}
+              height={360}
+            />
+            <div class={styles.eventInfo}>
+              <span class="heading up">5 e 6 de agosto de 2021</span>
+              <span class="heading up">09h às 13h GMT-3</span>
             </div>
-            <div class="col-md-7">
-              <div class="main-section">
-                <h1 class="xheading up thin">A CODE BEAM CHEGOU AO BRASIL</h1>
-                <p class="thin">Com foco em Erlang, Elixir e outras tecnologias relacionadas à plataforma BEAM, as conferências da <a href="https://www.codesync.global/" target="_blank" class="neutral-link">Code Sync</a> acontecem há mais de 10 anos.</p>
-                <p class="thin">Devido à COVID 19, os eventos físicos foram transferidos para um ambiente virtual, o que nos traz a oportunidade de criar um espaço ainda mais acessível, com a presença de pessoas de diferentes cidades do Brasil e do mundo.</p>
-                <p class="thin">E é nesse cenário que a Code BEAM enfim chegou ao país de origem do Elixir! A primeira edição da Code BEAM BR aconteceu em 2020 e reuniu os principais nomes da comunidade Elixirlang e Erlang em um evento 100% online e pela primeira vez com palestras em português.</p>
-              </div>
+          </div>
+          <div class="col-md-7">
+            <div class="main-section">
+              <h1 class="xheading up thin uppercase">O principal evento do ecossistema Earlang está de volta ao Brasil</h1>
+              <p class="thin">O país de origem do Elixir se prepara para a segunda edição da Code BEAM BR.</p>
+              <p class="thin">Devido à situação da COVID 19 no país, o evento será 100% online mais uma vez, possibilitando a criação de um espaço seguro e mais acessível, com a presença de pessoas de diferentes cidades do Brasil e do mundo.</p>
+              <p class="thin">Nos dias 15 e 16 de julho de 2021, de 9h às 12h GMT-3, voltaremos a reunir os principais nomes da comunidade Elixir e Erlang, com a maior parte das palestras em português.</p>
+              <p class="thin">Em breve vamos abrir o nosso Call 4 Papers e a pré venda de ingressos! Fiquem de olho nas nossas redes sociais. ;)</p>
             </div>
           </div>
         </div>
-      </section>
-    )
-  }
+      </div>
+    </section>
+  )
+}
