@@ -26,7 +26,7 @@
     {
       "id" : 4, 
       "nome" : "Amadeu Cavalcante e Weverton Timoteo",
-      "palestra" : "Construindo E Distribuindo CLIs Com Elixir",
+      "palestra" : "Construindo e distribuindo CLIs com Elixir",
       "img" : "https://codebeambr-homol.vercel.app/thumbs/amadeuweverton.jpg",
       "video" : "https://codebeambrtecnol1.websiteseguro.com/videos/AmadeueWevertonConstruindoedistribuindoCLIscomElixir.mp4",
       "descricao" : "Pensando em facilitar nossa vida e estudar Elixir, imaginamos: que tal construir um utilitário para ajudar no pair-programming no dia-a-dia? Começamos então a desenvolver o nosso CLI usando Elixir e nos deparamos com vários desafios, até chegar na distribuição do utilitário. Nessa talk gostaríamos de compartilhar os aprendizados e incentivar (ou não) a criação de CLIs usando Elixir."
