@@ -5,10 +5,18 @@ export default function Tickets() {
         <section className={styles.tickets}>
             <div className="container">
                 <div className="row">
-                <div className="col-md-12">
-                        <h3> Ingressos </h3>
-                        <p>Os ingressos para a edição 2021 já estão à venda! Garanta já o seu ;)</p>
-                        <div 
+                    <div className="col-md-12">
+                        <h3>Ingressos</h3>
+                    </div>
+                </div>
+                <div className="row">
+                <h3> Ingressos </h3>
+                <div className="col-md-5">
+                        <p>Os ingressos para a edição 2021 já estão à venda! </p>
+                        <p>Garanta já o seu ;)</p>
+                    </div>
+                    <div className="col-md-7">
+                    <div 
                         id="sympla-widget-1202471" 
                         height="auto" 
                         style={{ maxWidth: 600 }}>
