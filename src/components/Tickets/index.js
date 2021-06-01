@@ -5,14 +5,13 @@ export default function Tickets() {
         <section className={styles.tickets}>
             <div className="container">
                 <div className="row">
-                <div className="col-md-5">
+                <div className="col-md-12">
                         <h3> Ingressos </h3>
-                    </div>
-                    <div className="col-md-7">
-                    <div 
+                        <p>Os ingressos para a edição 2021 já estão à venda! Garanta já o seu ;)</p>
+                        <div 
                         id="sympla-widget-1202471" 
                         height="auto" 
-                        style={{ "maxWidth": "100%" }}>
+                        style={{ maxWidth: 600 }}>
                         <iframe 
                             src="https://www.sympla.com.br/tickets-grid-widget?eid=1202471&amp;lang=pt" 
                             id="symplaw" frameborder="0" vspace="0" hspace="0" marginheight="0" marginwidth="5" 
@@ -20,6 +19,7 @@ export default function Tickets() {
                         </iframe>
                     </div>
                     </div>
+
                 </div>
             </div>
         </section>
