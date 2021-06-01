@@ -15,7 +15,7 @@ export default function VideoThumb() {
             />
             <div className={styles.eventInfo}>
               <span className="heading up">5 e 6 de agosto de 2021</span>
-              {/* <span className="heading up">09h às 13h GMT-3</span> */}
+              <span className="heading up">09h - 14h GMT-3</span> 
             </div>
           </div>
           <div className="col-md-7">

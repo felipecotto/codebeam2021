@@ -1,0 +1,57 @@
+PANDA
+
+Police and administration 
+
+
+
+"color-brand-1": "#00A868",
+"color-brand-2": "#008E5A",
+"color-brand-3": "#42EC9A",
+
+"neutral-1": "#F2F4F7",
+"neutral-2": "#D0D5DD",
+"neutral-3": "#4C5462",
+"neutral-4": "#222730",
+
+"border-radius-none": 0,
+"border-radius-small": "4px",
+"border-radius-medium": "8px",
+"border-radius-large": "24px",
+"border-radius-pill": "500px",
+"border-radius-circle": "50%",
+
+"shadow-level-1" : "rgba(149, 157, 165, 0.2) 0px 8px 24px" 
+"shadow-level-2" : "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
+
+"spacing-xxxs": "4px",
+"spacing-xxs": "8px",
+"spacing-xs": "16px",
+"spacing-sm": "24px",
+"spacing-md": "32px",
+"spacing-lg": "48px",
+"spacing-xl": "64px",
+"spacing-xxl": "96px",
+"spacing-xxxl": "128px",
+
+"font-family-highlight": "Montserrat",
+"font-family-base": "Roboto",
+
+"line-height-rule-1": 1,
+"line-height-rule-2": 1.1,
+"line-height-rule-3": 1.5,
+
+"font-size-us": "12px",
+"font-size-xxxs": "14px",
+"font-size-xxs": "16px",
+"font-size-xs": "20px",
+"font-size-sm": "24px",
+"font-size-md": "32px",
+"font-size-lg": "40px",
+"font-size-xl": "48px",
+"font-size-xxl": "56px",
+"font-size-xxxl": "64px",
+"font-size-ul": "80px",
+
+"font-weight-regular": 300,
+"font-weight-medium": 500,
+"font-weight-bold": 700

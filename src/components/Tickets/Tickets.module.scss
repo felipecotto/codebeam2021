@@ -1,0 +1,23 @@
+.tickets {
+    padding: 90px 0;
+    background: #000000;
+    color: #ffffff;
+    h3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        text-transform: uppercase;
+        font-size: 32px;
+        text-transform: uppercase;
+        margin-bottom: 120px;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 80%;
+            height: 2px;
+            bottom: -40px;
+            background: linear-gradient(to right, #4eb913, #15e6ff);
+        }
+    }
+}
