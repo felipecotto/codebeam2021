@@ -17,8 +17,7 @@ export default function Tickets() {
                     <div className="col-md-7">
                     <div 
                         id="sympla-widget-1202471" 
-                        height="auto" 
-                        style={{ maxWidth: 600 }}>
+                        height="auto">
                         <iframe 
                             src="https://www.sympla.com.br/tickets-grid-widget?eid=1202471&amp;lang=pt" 
                             id="symplaw" frameborder="0" vspace="0" hspace="0" marginheight="0" marginwidth="5" 
