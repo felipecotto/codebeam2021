@@ -10,7 +10,6 @@ export default function Tickets() {
                     </div>
                 </div>
                 <div className="row">
-                <h3> Ingressos </h3>
                 <div className="col-md-5">
                         <p>Os ingressos para a edição 2021 já estão à venda! </p>
                         <p>Garanta já o seu ;)</p>
