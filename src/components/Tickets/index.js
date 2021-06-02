@@ -22,7 +22,7 @@ export default function Tickets() {
                         <iframe 
                             src="https://www.sympla.com.br/tickets-grid-widget?eid=1202471&amp;lang=pt" 
                             id="symplaw" frameborder="0" vspace="0" hspace="0" marginheight="0" marginwidth="5" 
-                            style={{ "width": "100%", height: 249 }}>
+                            style={{ "width": "100%", height: 320 }}>
                         </iframe>
                     </div>
                     </div>
