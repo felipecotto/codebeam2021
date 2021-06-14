@@ -15,7 +15,7 @@ export default function Keynotes() {
                 <div className="col-md-4">
                     <div className={styles.keynoteCard}>
                         <Image
-                        src="/PhotoErikSchon.png"
+                        src="/PhotoErikSchon.jpg"
                         alt="Erick Shön"
                         width={500}
                         height={500}
