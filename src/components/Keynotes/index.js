@@ -12,7 +12,7 @@ export default function Keynotes() {
                 </div>
                 </div>
                 <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-3">
                     <div className={styles.keynoteCard}>
                         <Image
                         src="/PhotoErikSchon.jpg"
