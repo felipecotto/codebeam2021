@@ -8,7 +8,7 @@ export default function Keynotes() {
             <div className="container">
                 <div className="row">
                 <div className="col-md-12">
-                    <h3>Keynotes</h3>
+                    <h3>Call4Papers</h3>
                 </div>
                 </div>
                 <div className="row">

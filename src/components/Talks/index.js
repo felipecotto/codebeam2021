@@ -8,7 +8,7 @@ export default function Talks() {
             <div className="container">
                 <div className="row">
                 <div className="col-md-12">
-                    <h3>Call4Papers e Q&A Sessions</h3>
+                    <h3>Palestras e Q&A Sessions</h3>
                 </div>
                 </div>
                 <div className="row">
