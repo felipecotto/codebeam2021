@@ -6,7 +6,7 @@ export default function Speakers() {
             <div className="container">
                 <div className="row">
                 <div className="col-md-12">
-                    <h3>Palestrantes</h3>
+                    <h3>Call4Papers</h3>
                     <p>O Call4Papers está aberto! Submeta sua palestra e participe da segunda edição da Code BEAM BR! 
                         Não se preocupe com a sua localização, o evento será 100% online! Talks em português e 
                         em inglês são bem-vindas. ;)
