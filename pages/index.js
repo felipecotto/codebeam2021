@@ -22,7 +22,7 @@ export default function Home(props) {
   return (
     <>
       <Head>
-        <title>Code Beam BR - A Code Beam chegou ao Brasil!</title>
+        <title>Code BEAM BR - A Code BEAM chegou ao Brasil!</title>
         <meta name="description" content="Temos o orgulho de anunciar que a Code BEAM enfim 
         chegou ao país de origem do Elixir! A primeira Code BEAM Brasil vai reunir os principais 
         nomes da comunidade Elixirlang e Erlang em um evento 100% online e pela primeira vez com 
