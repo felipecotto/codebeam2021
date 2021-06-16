@@ -26,7 +26,13 @@ export default function Talks() {
                         <a href="https://codesync.global/speaker/jose-valim/" target="_blank">+ Mais</a>
                     </div>
                 </div>
+                <div className="col-md-3">
+                <div className="coming-soon">
+                            <h4>Em breve, mais participações confirmadas ;)</h4> 
+                        </div>
                 </div>
+                </div>
+
             </div>
         </section>
     )

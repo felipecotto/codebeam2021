@@ -113,3 +113,11 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
+
+.coming-soon {
+  background: linear-gradient(to right, #4eb913, #15e6ff);
+  padding: 20px;
+  display: inline-block;
+  border-radius: 12px;
+  margin-top: 50px;
+}

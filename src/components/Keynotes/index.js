@@ -26,6 +26,13 @@ export default function Keynotes() {
                     </div>
                 </div>
                 </div>
+                <div className="row">
+                    <div className="col-md-12 text-center">
+                        <div className="coming-soon">
+                            <h4>Em breve, mais participações confirmadas ;)</h4> 
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     )
