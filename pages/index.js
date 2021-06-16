@@ -14,6 +14,7 @@ import { FacebookIcon, LinkedinIcon, TwitterIcon, EmailIcon } from 'react-share'
 import Speakers from '../src/components/Speakers';
 import Tickets from '../src/components/Tickets';
 import Keynotes from '../src/components/Keynotes';
+import Talks from '../src/components/Talks';
 
 export default function Home(props) {
   const [limitVideos, setLimitVideos] = useState(8);
@@ -35,6 +36,7 @@ export default function Home(props) {
       <HeroBanner />
       <Speakers />
       <Keynotes />
+      <Talks />
       <Tickets />
       <section className={styles.postsContainer}>
         <div className="container">

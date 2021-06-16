@@ -1,5 +1,5 @@
-.keynotes {
-    padding: 90px 0 40px 0;
+.talks {
+    padding: 90px 0;
     background: #000000;
     color: #ffffff;
     h3 {
@@ -41,16 +41,18 @@
     .mb32 {
         margin-bottom: 32px;
     }
-    .keynoteCard {
-        border: #4eb913 solid 1px;
-        padding: 16px;
+    .talksCard {
+        // border: #4eb913 solid 1px;
+        // padding: 16px;
         .title {
             font-size: 24px;
             margin-bottom: 8px;
+            margin-top: 6px;
         } 
         .subtitle {
             font-size: 14px;
             line-height: 22px;
+            margin-bottom: 6px;
             color: #4eb913;
         }
         .description {
