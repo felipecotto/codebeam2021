@@ -25,14 +25,13 @@ export default function Keynotes() {
                         <p className={styles.description}> What Can Fintech Learn from Telecom? What Are the Jobs to Be Done and What's the Right Tool For the Job?</p>
                     </div>
                 </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-12 text-center">
-                        <div className="coming-soon">
-                            <h4>Em breve, mais participações confirmadas ;)</h4> 
+                <div className="col-md-3 col-md-offset-1">
+                <div className="coming-soon">
+                            <h4>Em breve, mais participações confirmadas!</h4> 
                         </div>
-                    </div>
                 </div>
+                </div>
+
             </div>
         </section>
     )

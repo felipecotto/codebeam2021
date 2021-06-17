@@ -28,7 +28,7 @@ export default function Talks() {
                 </div>
                 <div className="col-md-3">
                 <div className="coming-soon">
-                            <h4>Em breve, mais participações confirmadas ;)</h4> 
+                            <h4>Em breve, mais participações confirmadas!</h4> 
                         </div>
                 </div>
                 </div>
