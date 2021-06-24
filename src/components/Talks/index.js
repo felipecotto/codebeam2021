@@ -27,6 +27,19 @@ export default function Talks() {
                     </div>
                 </div>
                 <div className="col-md-3">
+                    <div className={styles.talksCard}>
+                        <Image
+                        src="/WillianFrantz.jpg"
+                        alt="Erick Shön"
+                        width={200}
+                        height={200}
+                        />
+                        <h2 className={styles.title}>Willian Frantz</h2>
+                        <h4 className={styles.subtitle}> Software Alchemist @ Trybe  </h4>
+                        <p className={styles.description}>Meta-programação com Elixir</p>
+                    </div>
+                </div>
+                <div className="col-md-3">
                 <div className="coming-soon">
                             <h4>Em breve, mais participações confirmadas!</h4> 
                         </div>
