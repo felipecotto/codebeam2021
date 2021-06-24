@@ -12,7 +12,7 @@ export default function Talks() {
                 </div>
                 </div>
                 <div className="row">
-                <div className="col-md-3">
+                <div className="col-md-3 padding-custom">
                     <div className={styles.talksCard}>
                         <Image
                         src="/JoseValim.jpg"
@@ -26,7 +26,7 @@ export default function Talks() {
                         <a href="https://codesync.global/speaker/jose-valim/" target="_blank">+ Mais</a>
                     </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-3 padding-custom">
                     <div className={styles.talksCard}>
                         <Image
                         src="/WillianFrantz.jpg"
@@ -39,7 +39,7 @@ export default function Talks() {
                         <p className={styles.description}>Meta-programação com Elixir</p>
                     </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-3 padding-custom">
                 <div className="coming-soon">
                             <h4>Em breve, mais participações confirmadas!</h4> 
                         </div>
