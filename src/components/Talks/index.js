@@ -17,8 +17,8 @@ export default function Talks() {
                         <Image
                         src="/JoseValim.jpg"
                         alt="Erick Shön"
-                        width={200}
-                        height={200}
+                        width={400}
+                        height={400}
                         />
                         <h2 className={styles.title}>José Valim</h2>
                         <h4 className={styles.subtitle}>Creator of Elixir / Chief Adoption Officer @ Dashbit  </h4>
@@ -31,8 +31,8 @@ export default function Talks() {
                         <Image
                         src="/WillianFrantz.jpg"
                         alt="Erick Shön"
-                        width={200}
-                        height={200}
+                        width={400}
+                        height={400}
                         />
                         <h2 className={styles.title}>Willian Frantz</h2>
                         <h4 className={styles.subtitle}> Software Alchemist @ Trybe  </h4>
