@@ -15,6 +15,7 @@ import Speakers from '../src/components/Speakers';
 import Tickets from '../src/components/Tickets';
 import Keynotes from '../src/components/Keynotes';
 import Talks from '../src/components/Talks';
+import Panels from '../src/components/Panels';
 
 export default function Home(props) {
   const [limitVideos, setLimitVideos] = useState(8);
@@ -37,6 +38,7 @@ export default function Home(props) {
       <Speakers />
       <Keynotes />
       <Talks />
+      <Panels />
       <Tickets />
       <section className={styles.postsContainer}>
         <div className="container">
