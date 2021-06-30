@@ -1,5 +1,5 @@
 .panels {
-    padding: 90px 0;
+    padding: 90 0 90px 0;
     background: #000000;
     color: #ffffff;
     h3 {
@@ -42,8 +42,7 @@
         margin-bottom: 32px;
     }
     .panelsCard {
-        // border: #4eb913 solid 1px;
-        // padding: 16px;
+        min-height: 420px;
         .title {
             font-size: 24px;
             margin-bottom: 8px;
