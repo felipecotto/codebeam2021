@@ -3,7 +3,7 @@ import styles from './Panels.module.scss';
 
 export default function Panels() {
     const data = [
-        { id: 1, name: "Adolfo Neto", job: "host do Elixir em Foco | Professor @ UTFPR ", image: "/adolfo.jpg" },
+        { id: 1, name: "Adolfo Neto", job: "Host do Elixir em Foco | Professor @ UTFPR ", image: "/adolfo.jpg" },
         { id: 2, name: "Herminio Torres", job: "Host do Elixir em Foco | Criador do Elixercism | Software Developer @ Solfácil", image: "/herminio.jpg"  },
         { id: 3, name: "Matheus Pessanha", job: "Host do Elixir em Foco | Backend Developer @ Solfácil", image: "/matheuspessanha.jpg" },
         { id: 4, name: "Cristine Guadelupe", job: "Host do Elixir em Foco | Developer @ Comadre", image: "/cristine.jpg" },
