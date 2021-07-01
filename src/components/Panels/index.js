@@ -3,13 +3,13 @@ import styles from './Panels.module.scss';
 
 export default function Panels() {
     const data = [
-        { id: 1, name: "Adolfo Neto", job: "host do Elixir em Foco e professor @ UTFPR ", image: "/adolfo.jpg" },
-        { id: 2, name: "Herminio Torres", job: "Criador do Elixercism, host do Elixir em Foco e e software developer @ Solfácil", image: "/herminio.jpg"  },
-        { id: 3, name: "Matheus Pessanha", job: "host do Elixir em Foco e backend developer @ Solfácil", image: "/matheuspessanha.jpg" },
-        { id: 4, name: "Cristine Guadelupe", job: "host do Elixir em Foco e developer @ Comadre", image: "/cristine.jpg" },
-        { id: 5, name: "Elaine Naomi", job: "host do ElixirLab e software engineer @ TheRealReal", image: "/elaine.jpg" },
-        { id: 6, name: "Juliana Helena", job: "host do ElixirLab e backend developer @ SumUP", image: "/juliana.jpg"},
-        { id: 7, name: "Rachel Curioso", job: "host do ElixirLab e software consultant @ Erlang Solutions", image: "/rachel.jpg"},
+        { id: 1, name: "Adolfo Neto", job: "host do Elixir em Foco | Professor @ UTFPR ", image: "/adolfo.jpg" },
+        { id: 2, name: "Herminio Torres", job: "Host do Elixir em Foco | Criador do Elixercism | Software Developer @ Solfácil", image: "/herminio.jpg"  },
+        { id: 3, name: "Matheus Pessanha", job: "Host do Elixir em Foco | Backend Developer @ Solfácil", image: "/matheuspessanha.jpg" },
+        { id: 4, name: "Cristine Guadelupe", job: "Host do Elixir em Foco | Developer @ Comadre", image: "/cristine.jpg" },
+        { id: 5, name: "Elaine Naomi", job: "Host do ElixirLab | Software Engineer @ TheRealReal", image: "/elaine.jpg" },
+        { id: 6, name: "Juliana Helena", job: "Host do ElixirLab | Backend Developer @ SumUP ", image: "/juliana.jpg"},
+        { id: 7, name: "Rachel Curioso", job: "Host do ElixirLab | Software Consultant @ Erlang Solutions", image: "/rachel.jpg"},
     ];
     return (
         <section className={styles.panels}>
@@ -17,6 +17,7 @@ export default function Panels() {
                 <div className="row">
                     <div className="col-md-12">
                         <h3>Painel</h3>
+                        <h4>Disseminando Elixir para a comunidade: desafios e aprendizados</h4>
                     </div>
                 </div>
                 <div className="row">

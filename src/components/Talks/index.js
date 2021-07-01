@@ -21,7 +21,7 @@ export default function Talks() {
                         height={400}
                         />
                         <h2 className={styles.title}>José Valim</h2>
-                        <h4 className={styles.subtitle}>Creator of Elixir / Chief Adoption Officer @ Dashbit  </h4>
+                        <h4 className={styles.subtitle}> Creator of Elixir | Chief Adoption Officer @ Dashbit </h4>
                         <p className={styles.description}>Q&A Session</p>
                         <a href="https://codesync.global/speaker/jose-valim/" target="_blank">+ Mais</a>
                     </div>
