@@ -38,7 +38,7 @@ export default function Keynotes() {
                 </div>
                 <div className="row">
                 {data.map((item) => (
-                <div className="col-md-4">
+                <div className="col-md-3">
                     <div className={styles.keynoteCard} key={item.id}>
                         <Image
                         src={item.image}
@@ -53,6 +53,11 @@ export default function Keynotes() {
                     </div>
                 </div>
                 ))}
+                                <div className="col-md-3 padding-custom">
+                <div className="coming-soon">
+                            <h4>Em breve, mais participações confirmadas!</h4> 
+                        </div>
+                </div>
                 </div>
 
             </div>
