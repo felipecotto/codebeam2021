@@ -44,6 +44,11 @@
     .keynoteCard {
         border: #4eb913 solid 1px;
         padding: 16px;
+        min-height: 610px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
         .title {
             font-size: 24px;
             margin-bottom: 8px;
