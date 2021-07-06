@@ -36,7 +36,7 @@ export default function Keynotes() {
                     <h3>Keynotes</h3>
                 </div>
                 </div>
-                <div className="row">
+                <div className={styles.rowFlex}>
                 {data.map((item) => (
                 <div className="col-md-3">
                     <div className={styles.keynoteCard} key={item.id}>
@@ -46,9 +46,11 @@ export default function Keynotes() {
                         width={500}
                         height={500}
                         />
-                        <h2 className={styles.title}>{item.name}</h2>
-                        <h4 className={styles.subtitle}> {item.job} </h4>
-                        <p className={styles.description}> {item.description}</p>
+                        <div>
+                            <h2 className={styles.title}>{item.name}</h2>
+                            <h4 className={styles.subtitle}> {item.job} </h4>
+                            <p className={styles.description}> {item.description}</p>
+                        </div>
                         {item.showMore.length > 0 && <a href={item.showMore} target="_blank">+ Mais</a>}
                     </div>
                 </div>
