@@ -2,6 +2,12 @@ import Image from 'next/image';
 import styles from './Talks.module.scss';
 
 export default function Talks() {
+    const data = [
+        { id: 1, name: "José Valim", job: "Creator of Elixir | Chief Adoption Officer @ Dashbit", image: "/JoseValim.jpg" , talk: "Q&A Session", more: "https://codesync.global/speaker/jose-valim/"  },
+        { id: 2, name: "Willian Frantz", job: "Software Alchemist @ Trybe", image: "/WillianFrantz.jpg", talk: "Meta-programação com Elixir", more: ""  },
+        { id: 3, name: "Thiago Henrique", job: "Tech Manager @ Semantix SA", image: "/ThiagoHenrique.jpg", talk: "Ingestão de dados com Elixir distribuído", more: "" },
+        
+    ];
 
     return (
         <section className={styles.talks}>
@@ -12,33 +18,22 @@ export default function Talks() {
                 </div>
                 </div>
                 <div className="row">
+                {data.map((item) => (
                 <div className="col-md-3 padding-custom">
                     <div className={styles.talksCard}>
                         <Image
-                        src="/JoseValim.jpg"
-                        alt="Erick Shön"
+                        src={item.image}
+                        alt={item.name}
                         width={400}
                         height={400}
                         />
-                        <h2 className={styles.title}>José Valim</h2>
-                        <h4 className={styles.subtitle}> Creator of Elixir | Chief Adoption Officer @ Dashbit </h4>
-                        <p className={styles.description}>Q&A Session</p>
-                        <a href="https://codesync.global/speaker/jose-valim/" target="_blank">+ Mais</a>
+                        <h2 className={styles.title}> {item.name} </h2>
+                        <h4 className={styles.subtitle}> {item.job} </h4>
+                        <p className={styles.description}> {item.talk} </p>
+                        {item.more.length > 0 && <a href={item.more} target="_blank">+ Mais</a>}
                     </div>
                 </div>
-                <div className="col-md-3 padding-custom">
-                    <div className={styles.talksCard}>
-                        <Image
-                        src="/WillianFrantz.jpg"
-                        alt="Erick Shön"
-                        width={400}
-                        height={400}
-                        />
-                        <h2 className={styles.title}>Willian Frantz</h2>
-                        <h4 className={styles.subtitle}> Software Alchemist @ Trybe  </h4>
-                        <p className={styles.description}>Meta-programação com Elixir</p>
-                    </div>
-                </div>
+                ))}
                 <div className="col-md-3 padding-custom">
                 <div className="coming-soon">
                             <h4>Em breve, mais participações confirmadas!</h4> 

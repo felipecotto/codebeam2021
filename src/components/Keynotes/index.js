@@ -27,6 +27,22 @@ export default function Keynotes() {
             image: "/MarianoGuerra.jpg",
             showMore: "https://codesync.global/speaker/mariano-guerra/"
         },
+        {
+            id: 4,
+            name: "Getty Orawo",
+            job: "GirlsGetGeeky Founder  | Elixir/BEAM Africa Coordinator | Software Engineer @ SokowatchGirls",
+            description: "Adopting Elixir and Growing the Elixir Community Across Africa",
+            image: "/GettyOrawo.jpg",      
+            showMore: ""
+        },
+        {
+            id: 5,
+            name: "Okoth Kongo",
+            job: "Tech Evangelist @ Beam Kenya and  ElixirConfAfrica ",
+            description: "Adopting Elixir and Growing the Elixir Community Across Africa",
+            image: "/OkothKongo.jpg",      
+            showMore: ""
+        }
     ];
     return (
         <section className={styles.keynotes}>
@@ -36,7 +52,7 @@ export default function Keynotes() {
                     <h3>Keynotes</h3>
                 </div>
                 </div>
-                <div className={styles.rowFlex}>
+                <div className="row">
                 {data.map((item) => (
                 <div className="col-md-3">
                     <div className={styles.keynoteCard} key={item.id}>
