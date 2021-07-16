@@ -16,6 +16,7 @@ import Tickets from '../src/components/Tickets';
 import Keynotes from '../src/components/Keynotes';
 import Talks from '../src/components/Talks';
 import Panels from '../src/components/Panels';
+import Diversity from '../src/components/Diversity';
 
 export default function Home(props) {
   const [limitVideos, setLimitVideos] = useState(8);
@@ -40,6 +41,7 @@ export default function Home(props) {
       <Talks />
       <Panels />
       <Tickets />
+      <Diversity />
       <section className={styles.postsContainer}>
         <div className="container">
           <div className={styles.title}>
