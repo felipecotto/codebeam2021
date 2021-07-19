@@ -36,7 +36,7 @@ export default function Footer() {
           <div className="col-md-3">
             <h3>Diversidade</h3>
             <a href="https://www.erlef.org/" target="_blank">
-              <Image src="/eef.png" alt="Erlang Ecosystem Foundation" width={178} height={87}/>
+              <Image src="/eef.png" alt="Erlang Ecosystem Foundation" width={140} height={69}/>
             </a>
           </div>
 
