@@ -12,7 +12,7 @@ export default function Diversity() {
                         Para ajudar a alcançar isso, nós e a EEF estamos fornecendo ingressos gratuitos para estudantes, 
                         grupos sub-representados em tecnologia ou pessoas que não poderiam arcar com o custo financeiro. 
                         As inscrições se encerram em 3 de agosto de 2021. </p>
-                    <a href="" className="">inscreva-se</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScAes_NDNUBmg5G3CIGCXW3-FJkCqg4-1XFgVBUBZY7zdmW6g/viewform" className="" target="_blank">inscreva-se</a>
                 </div>
                 </div>
             </div>
