@@ -8,7 +8,7 @@ export default function Talks() {
         { id: 3, name: "Thiago Henrique", job: "Tech Manager @ Semantix SA", image: "/ThiagoHenrique.jpg", talk: "Ingestão de dados com Elixir distribuído", more: "" },
         { id: 4, name: "Fernanda Bernardo", job: "Tech Community Manager @ Comadre", image: "/FernandaBernardo.jpg", talk: "De Frontend à Tech Community Manager", more: "" },
         { id: 5, name: "Guilherme Castro", job: "Senior Developer @ Trybe", image: "/GuilhermeCastro.jpg", talk: "Por que e como construímos nosso Markdown parser em Elixir", more: "" },
-        { id: 6, name: "Daniel Pilon", job: "Software Engineer @ SumUP", image: "/DanielPilon.jpg", talk: "Diagnosticando bugs em produção com Elixir", more: "" }
+        { id: 6, name: "Daniel Pilon", job: "Software Engineer @ SumUp", image: "/DanielPilon.jpg", talk: "Diagnosticando bugs em produção com Elixir", more: "" }
     ];
 
     return (
