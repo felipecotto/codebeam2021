@@ -10,7 +10,8 @@ export default function Talks() {
         { id: 5, name: "Guilherme Castro", job: "Senior Developer @ Trybe", image: "/GuilhermeCastro.jpg", talk: "Por que e como construímos nosso Markdown parser em Elixir", more: "" },
         { id: 6, name: "Daniel Pilon", job: "Software Engineer @ SumUp", image: "/DanielPilon.jpg", talk: "Diagnosticando bugs em produção com Elixir", more: "" },
         { id: 7, name: "Pedro Castilho", job: "CTO @ Comadre", image: "/PedroCastilho.jpg", talk: "Evolving applications with OTP", more: "" },
-        { id: 8, name: "Morôni Sauner", job: "Backend Developer @ Stone", image: "/MoroniSauner.jpg", talk: "Testando sua aplicação com ExUnit", more: "" }
+        { id: 8, name: "Morôni Sauner", job: "Backend Developer @ Stone", image: "/MoroniSauner.jpg", talk: "Testando sua aplicação com ExUnit", more: "" },
+        { id: 9, name: "Adolfo Neto", job: "Host do Elixir em Foco | Professor @ UTFPR", image: "/adolfo.jpg", talk: "As funções que não são funções (matemáticas) em Elixir", more: "" }
     ];
 
     return (
