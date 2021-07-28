@@ -12,7 +12,7 @@ export default function Talks() {
         { id: 7, name: "Pedro Castilho", job: "CTO @ Comadre", image: "/PedroCastilho.jpg", talk: "Evolving applications with OTP", more: "" },
         { id: 8, name: "Morôni Sauner", job: "Backend Developer @ Stone", image: "/MoroniSauner.jpg", talk: "Testando sua aplicação com ExUnit", more: "" },
         { id: 9, name: "Adolfo Neto", job: "Host do Elixir em Foco | Professor @ UTFPR", image: "/adolfo.jpg", talk: "As funções que não são funções (matemáticas) em Elixir", more: "" },
-        { id: 10, name: "Bernardo Amorim", job: "Software Engineer @  Saltpay", image: "/BernardoAmorim.jpg", talk: "Elixir sem Mix: Aprendendo a ferramenta ao tentar não utilizá-la", more: ""}
+        { id: 10, name: "Bernardo Amorim", job: "Software Engineer @  Saltpay", image: "/BernardoAmorim.jpg", talk: "Elixir sem Mix: Aprendendo a ferramenta ao tentar não utilizá-la", more: "https://codesync.global/speaker/bernardo-amorim/"}
     ];
 
     return (
