@@ -9,7 +9,7 @@ export default function Talks() {
         { id: 4, name: "Fernanda Bernardo", job: "Tech Community Manager @ Comadre", image: "/FernandaBernardo.jpg", talk: "De Frontend à Tech Community Manager", more: "" },
         { id: 5, name: "Guilherme Castro", job: "Senior Developer @ Trybe", image: "/GuilhermeCastro.jpg", talk: "Por que e como construímos nosso Markdown parser em Elixir", more: "" },
         { id: 6, name: "Daniel Pilon", job: "Software Engineer @ SumUp", image: "/DanielPilon.jpg", talk: "Diagnosticando bugs em produção com Elixir", more: "" },
-        { id: 7, name: "Pedro Castilho", job: "CTO @ Comadre", image: "/PedroCastilho.jpg", talk: "Evolving applications with OTP", more: "" },
+        { id: 7, name: "Pedro Castilho", job: "CTO @ Comadre", image: "/PedroCastilho.jpg", talk: "Evoluindo aplicações com OTP", more: "" },
         { id: 8, name: "Morôni Sauner", job: "Backend Developer @ Stone", image: "/MoroniSauner.jpg", talk: "Testando sua aplicação com ExUnit", more: "" },
         { id: 9, name: "Adolfo Neto", job: "Host do Elixir em Foco | Professor @ UTFPR", image: "/adolfo.jpg", talk: "As funções que não são funções (matemáticas) em Elixir", more: "" },
         { id: 10, name: "Bernardo Amorim", job: "Software Engineer @  Saltpay", image: "/BernardoAmorim.jpg", talk: "Elixir sem Mix: Aprendendo a ferramenta ao tentar não utilizá-la", more: "https://codesync.global/speaker/bernardo-amorim/"},
