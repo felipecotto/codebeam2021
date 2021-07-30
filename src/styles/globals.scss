@@ -3,6 +3,10 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto Mono', monospace;
+  /* Fix mobile issues - página não está 100% da largura */
+  width: fit-content;
+  min-width: 100%;
+  box-sizing: border-box; /* because 100% + padding > 100% */
 }
 
 a {
