@@ -17,6 +17,7 @@ import Keynotes from '../src/components/Keynotes';
 import Talks from '../src/components/Talks';
 import Panels from '../src/components/Panels';
 import Diversity from '../src/components/Diversity';
+import Schedule from '../src/components/Schedule';
 
 export default function Home(props) {
   const [limitVideos, setLimitVideos] = useState(8);
@@ -42,6 +43,8 @@ export default function Home(props) {
       <Panels />
       <Tickets />
       <Diversity />
+      <Schedule />
+
       <section className={styles.postsContainer}>
         <div className="container">
           <div className={styles.title}>
@@ -104,6 +107,7 @@ export default function Home(props) {
       </section>
       <Sponsors />
       <Footer />
+      
     </>
   )
 }
@@ -116,4 +120,3 @@ export async function getStaticProps() {
     }
   }
 }
-
