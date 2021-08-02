@@ -31,7 +31,7 @@ export default function Schedule() {
                                 Dia 1 - 05 AG0 2021 - QUINTA
                             </a>
 
-                            <div className="collapse" id="firstDay">
+                            <div className="collapse show" id="firstDay">
                                 <div className="card card-body">
 
                                     <table className={styles.tabcontent}>
