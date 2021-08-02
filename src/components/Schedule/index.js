@@ -3,7 +3,7 @@ import styles from './Schedule.module.scss';
 
 export default function Schedule() {
     const data = [
-        { id: 1, hide: "", time: "09.00 - 10.00", level: "", name: "Getty Orawo + Okoth", type: "Abertura + Keynote", talk: "Adopting Elixir and Growing the Elixir Community Across Africa", hide2: "", name2: "", type2: "", talk2: "", level2: "" },
+        { id: 1, hide: "", time: "09.00 - 10.00", level: "", name: "Getty Orawo + Okoth", type: "Keynote", talk: "Adopting Elixir and Growing the Elixir Community Across Africa", hide2: "", name2: "", type2: "", talk2: "", level2: "" },
         { id: 2, hide: "", time: "10.10 - 10.50", level: "iniciante", name: "Thiago Henrique", type: "Palestra", talk: "Ingestão de dados com Elixir distribuido", hide2: "", name2: "Bernardo Amorim", type2: "Palestra", talk2: "Elixir sem Mix: Aprendendo a ferramenta ao tentar não utilizá-la", level2: "Avançado" },
         { id: 3, hide: "", time: "11.00 - 11.40", level: "iniciante", name: "Fernanda Bernardo", type: "Palestra", talk: "De Frontend à Tech Community Manager", hide2: "", name2: "Daniel Pilon", type2: "Palestra", talk2: "Diagnosticando Bugs em Produção com Elixir", level2: "Avançado" },
         { id: 4, hide: "", time: "11.50 - 12.30", level: "iniciante", name: "Adolfo Neto", type: "Palestra", talk: "As funções que não são funções (matemáticas) em Elixir", hide2: "", name2: "Pedro Cstilho", type2: "Palestra", talk2: "Evoluindo aplicações com OTP", level2: "Avançado" },
@@ -24,14 +24,14 @@ export default function Schedule() {
                 <div className="row">
                     <div className="col-md-12">
                         <h3>Agenda</h3>
-                        <div class="days-holder">
+                        <div className="days-holder">
 
                             <a className={styles.daytrigger} data-toggle="collapse" href="#firstDay" role="button" aria-expanded="false" aria-controls="secondDay">
                                 Dia 1 - 05 AG0 2021 - QUINTA
                             </a>
 
-                            <div class="collapse show" id="firstDay">
-                                <div class="card card-body">
+                            <div className="collapse show" id="firstDay">
+                                <div className="card card-body">
 
                                     <table className={styles.tabcontent}>
                                         <thead>
@@ -40,10 +40,10 @@ export default function Schedule() {
                                                     <p>Horário</p>
                                                 </th>
                                                 <th>
-                                                    <p>Básico</p>
+                                                    <p>Track 1</p>
                                                 </th>
                                                 <th>
-                                                    <p>Avançado</p>
+                                                    <p>Track 2</p>
                                                 </th>
                                             </tr>
                                         </thead>
@@ -103,10 +103,10 @@ export default function Schedule() {
                                                     <p>Horário</p>
                                                 </th>
                                                 <th>
-                                                    <p>Básico</p>
+                                                    <p>Track 1</p>
                                                 </th>
                                                 <th>
-                                                    <p>Avançado</p>
+                                                    <p>Track 2</p>
                                                 </th>
                                             </tr>
                                         </thead>
