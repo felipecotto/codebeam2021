@@ -350,16 +350,12 @@
     }
 
     @media screen and (min-width:1050px) {
-        .timeborder {
-            border-right: 1px solid grey;
+        .verticalborder {
+            border-left: 1px solid grey;
+            padding: 10px 10px 10px 30px
         }
     }
 
-    @media screen and (max-width:767px) {
-        .timeborder {
-            padding-top: 10px
-        }
-    }
 
     td {
         width: 16.66667%;

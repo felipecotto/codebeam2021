@@ -58,6 +58,8 @@ export default function Schedule() {
                                                         </div>
                                                     </td>
                                                     <td className={styles.aligntop}>
+                                                    <div className={styles.verticalborder}>
+
                                                         <p className={styles.name}>
                                                             {item.name}
                                                         </p>
@@ -66,10 +68,11 @@ export default function Schedule() {
                                                         <p className={styles.gray}>
                                                             {item.level}
                                                         </p>
+                                                        </div>
                                                     </td>
                                                     <td className={styles.aligntop}>
                                                         <p className={styles.name}>
-                                                                {item.name2}
+                                                            {item.name2}
                                                         </p>
                                                         <p className={styles.heading, styles.headingmedium}>{item.type2}</p>
                                                         <p className={styles.mono, styles.medium, styles.light, styles.pt00, styles.mt10}>{item.talk2} </p>
@@ -91,8 +94,8 @@ export default function Schedule() {
                             </a>
                             <div class="collapse show" id="secondDay">
                                 <div class="card card-body">
-                                    
-                                <table className={styles.tabcontent}>
+
+                                    <table className={styles.tabcontent}>
                                         <thead>
                                             <tr>
                                                 <th>
@@ -117,19 +120,22 @@ export default function Schedule() {
                                                         </div>
                                                     </td>
                                                     <td className={styles.aligntop}>
-                                                        <p className={styles.name}>
-                                                            {item.name}
-                                                        </p>
-                                                        <p className={styles.heading, styles.headingmedium}>{item.type}</p>
-                                                        <p className={styles.mono, styles.medium, styles.light, styles.pt00, styles.mt10}>{item.talk} </p>
-                                                        <p className={styles.gray}>
-                                                            {item.level}
-                                                        </p>
+                                                        <div className={styles.verticalborder}>
+
+                                                            <p className={styles.name}>
+                                                                {item.name}
+                                                            </p>
+                                                            <p className={styles.heading, styles.headingmedium}>{item.type}</p>
+                                                            <p className={styles.mono, styles.medium, styles.light, styles.pt00, styles.mt10}>{item.talk} </p>
+                                                            <p className={styles.gray}>
+                                                                {item.level}
+                                                            </p>
+                                                        </div>
 
                                                     </td>
                                                     <td className={styles.aligntop}>
                                                         <p className={styles.name}>
-                                                                {item.name2}
+                                                            {item.name2}
                                                         </p>
                                                         <p className={styles.heading, styles.headingmedium}>{item.type2}</p>
                                                         <p className={styles.mono, styles.medium, styles.light, styles.pt00, styles.mt10}>{item.talk2} </p>
@@ -150,7 +156,7 @@ export default function Schedule() {
                         </div>
                     </div>
                 </div>
-                </div>
+            </div>
         </section>
     )
 }
