@@ -18,6 +18,8 @@ import Talks from '../src/components/Talks';
 import Panels from '../src/components/Panels';
 import Diversity from '../src/components/Diversity';
 import Schedule from '../src/components/Schedule';
+import Navbar from '../src/components/Navbar';
+
 
 export default function Home(props) {
   const [limitVideos, setLimitVideos] = useState(8);
