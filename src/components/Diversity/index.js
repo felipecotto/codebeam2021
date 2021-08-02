@@ -2,7 +2,7 @@ import styles from './Diversity.module.scss';
 
 export default function Diversity() {
     return (
-        <section className={styles.diversity}>
+        <section id="diversity" className={styles.diversity}>
             <div className="container">
                 <div className="row">
                 <div className="col-md-12">

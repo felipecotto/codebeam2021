@@ -2,7 +2,7 @@ import styles from './Sponsors.module.scss';
 
 export default function Sponsors() {
     return (
-        <section className={styles.sponsors}>
+        <section id="sponsors"  className={styles.sponsors}>
             <div className="container">
                 <div className="row">
                 <div className="col-md-12">

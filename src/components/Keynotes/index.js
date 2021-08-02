@@ -45,7 +45,7 @@ export default function Keynotes() {
         }
     ];
     return (
-        <section className={styles.keynotes}>
+        <section id="keynotes" className={styles.keynotes}>
             <div className="container">
                 <div className="row">
                 <div className="col-md-12">

@@ -17,7 +17,7 @@ export default function Talks() {
     ];
 
     return (
-        <section className={styles.talks}>
+        <section id="talks" className={styles.talks}>
             <div className="container">
                 <div className="row">
                 <div className="col-md-12">

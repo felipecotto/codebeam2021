@@ -12,7 +12,7 @@ export default function Panels() {
         { id: 7, name: "Rachel Curioso", job: "Host do ElixirLab | Software Consultant @ Erlang Solutions", image: "/rachel.jpg"},
     ];
     return (
-        <section className={styles.panels}>
+        <section id="panels"  className={styles.panels}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">

@@ -43,15 +43,36 @@ function Navbar() {
           </button>
 
           <div
-            class="collapse navbar-collapse" 
+            className="collapse navbar-collapse" 
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav position-absolute top-50 start-50 translate-middle">
               <li className="nav-item">
-                  <a href="#firstDay">
+                  <a href="#keynotes">
+                    Key notes
+                  </a>
+              </li>
+              <li className="nav-item">
+                  <a href="#talks">
+                    Palestras
+                  </a>
+              </li>
+              <li className="nav-item">
+                  <a href="#panels">
+                    Painel
+                  </a>
+              </li>
+              <li className="nav-item">
+                  <a href="#tickets">
+                    Ingressos
+                  </a>
+              </li>
+              <li className="nav-item">
+                  <a href="#schedule">
                     Agenda
                   </a>
               </li>
+
             </ul>
           </div>
         </div>

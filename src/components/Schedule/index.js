@@ -19,7 +19,7 @@ export default function Schedule() {
         { id: 5, hide: "", time: "13.10 - 14.00", level: "", name: "Robert Virding e Mariano Guerra", type: "Keynote", talk: "The platform of the system", hide2: "", name2: "", type2: "", talk2: "", level2: "" },
     ];
     return (
-        <section className={styles.schedule}>
+        <section id="schedule" className={styles.schedule}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">

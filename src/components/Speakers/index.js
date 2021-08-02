@@ -2,7 +2,7 @@ import styles from './Speakers.module.scss';
 
 export default function Speakers() {
     return (
-        <section className={styles.speakers}>
+        <section id="speakers" className={styles.speakers}>
             <div className="container">
                 <div className="row">
                 <div className="col-md-12">
