@@ -34,6 +34,7 @@ export default function Home(props) {
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet"></link>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></link>
         <link rel="icon" href="/favicon.ico" />
+        
       </Head>
       <Header />
       <HeroBanner />
@@ -107,7 +108,6 @@ export default function Home(props) {
       </section>
       <Sponsors />
       <Footer />
-      
     </>
   )
 }
