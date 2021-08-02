@@ -44,9 +44,9 @@ export default function Home(props) {
       <Keynotes />
       <Talks />
       <Panels />
+      <Schedule />
       <Tickets />
       <Diversity />
-      <Schedule />
 
       <section className={styles.postsContainer}>
         <div className="container">
