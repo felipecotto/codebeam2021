@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from './Schedule.module.scss';
 
+
 export default function Schedule() {
     const data = [
         { id: 1, hide: "", time: "09.00 - 10.00", level: "", name: "GETTY ORAWO E OKOTH KONGO", type: "Keynote", talk: "Adopting Elixir and Growing the Elixir Community Across Africa", hide2: "", name2: "", type2: "", talk2: "", level2: "" },
@@ -30,7 +31,7 @@ export default function Schedule() {
                                 Dia 1 - 05 AG0 2021 - QUINTA
                             </a>
 
-                            <div className="collapse show" id="firstDay">
+                            <div className="collapse" id="firstDay">
                                 <div className="card card-body">
 
                                     <table className={styles.tabcontent}>
@@ -92,7 +93,7 @@ export default function Schedule() {
                             <a className={styles.daytrigger} data-toggle="collapse" href="#secondDay" role="button" aria-expanded="false" aria-controls="secondDay">
                                 Dia 2 - 06 AG0 2021 - SEXTA
                             </a>
-                            <div class="collapse show" id="secondDay">
+                            <div className="collapse show" id="secondDay">
                                 <div class="card card-body">
 
                                     <table className={styles.tabcontent}>

@@ -42,6 +42,14 @@ export default function Keynotes() {
             description: "Adopting Elixir and Growing the Elixir Community Across Africa",
             image: "/OkothKongo.jpg",      
             showMore: ""
+        },
+        {
+            id: 6,
+            name: "Brooklyn Zelenka",
+            job: "CTO @ Fission",
+            description: "Living On the Edge",
+            image: "/BrooklynZelenka.jpg",      
+            showMore: "https://codesync.global/speaker/brooklyn-zelenka/"
         }
     ];
     return (

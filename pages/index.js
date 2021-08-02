@@ -21,6 +21,7 @@ import Schedule from '../src/components/Schedule';
 import Navbar from '../src/components/Navbar';
 
 
+
 export default function Home(props) {
   const [limitVideos, setLimitVideos] = useState(8);
   console.log(limitVideos);
