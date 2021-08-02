@@ -15,7 +15,7 @@ export default function Schedule() {
         { id: 1, hide: "", time: "09.00 - 09.50", level: "", name: "Erick Schön", type: "Keynote", talk: "What can Fintech learn from Telecom", hide2: "", name2: "", type2: "", talk2: "", level2: "" },
         { id: 2, hide: "", time: "10.00 - 10.30", level: "", name: "José Valim", type: "Ask me Anything", talk: "", hide2: "", name2: "", type2: "", talk2: "", level2: "" },
         { id: 3, hide: "", time: "10.40 - 11.20", level: "Iniciante", name: "Morôni Sauner", type: "", talk: "Testando sua aplicação com ExUnit", hide2: "", name2: "Willian Frantz", type2: "", talk2: "Meta programação com Elixir", level2: "Avançado" },
-        { id: 4, hide: "", time: "11.30 - 12.10", level: "Iniciante", name: "", type: "Painel", talk: "Elixir lab + Elixir em Foco", hide2: "", name2: "", type2: "", talk2: "", level2: "" },
+        { id: 4, hide: "", time: "11.30 - 12.10", level: "Iniciante", name: "Elixir lab + Elixir em Foco", type: "Painel", talk: "Disseminando Elixir para a comunidade: desafios e aprendizados", hide2: "", name2: "", type2: "", talk2: "", level2: "" },
         { id: 5, hide: "", time: "12.20 - 13.00", level: "Iniciante", name: "Guilherme Castro", type: "", talk: "Porque e como construimos markdown parser em Elixir", hide2: "", name2: "Samanta de Araujo", type2: "", talk2: "Onboarding no Ecossistema Elixir", level2: "Iniciante" },
         { id: 5, hide: "", time: "13.10 - 14.00", level: "", name: "Robert Virding e Mariano Guerra", type: "Keynote", talk: "The platform of the system", hide2: "", name2: "", type2: "", talk2: "", level2: "" },
     ];
