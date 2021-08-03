@@ -9,9 +9,11 @@ export default function Footer() {
 
       <div className="row">
         <div className="container">
+
           <div className="col-md-3">
-            <h3>Realização</h3>
             <div className={styles.brandHolder}>
+            <h3>Realização</h3>
+
               <a href="https://codesync.global/" target="_blank">
                 <img
                   className="image"
@@ -31,25 +33,14 @@ export default function Footer() {
           </div>
 
           <div className="col-md-3">
-
-
-            <h3 className={styles.titledestaque}>Patrocínio</h3>
             <div className={styles.brandHolder}>
-
-
+            <h3 className={styles.titledestaque}>Patrocínio</h3>
               <a href="https://www.betrybe.com/" target="_blank">
                 <img className="image" src="/footer/betrybe.png" alt="Be trybe" />
               </a>
               <a href="https://xerpay.com.br/" target="_blank">
                 <img className="image" src="/footer/xerpay.png" alt="Xerpay" />
               </a>
-            </div>
-          </div>
-
-
-          <div className="col-md-3">
-            <h3>Acessibilidade</h3>
-            <div className={styles.brandHolder}>
               <a href="https://arvore.com.br/ " target="_blank">
                 <img className="image" src="/footer/arvore_negativo.png" alt="Arvore" />
 
@@ -57,9 +48,20 @@ export default function Footer() {
             </div>
           </div>
 
+
           <div className="col-md-3">
-            <h3>Diversidade</h3>
             <div className={styles.brandHolder}>
+            <h3>Acessibilidade</h3>
+
+              <a href="https://arvore.com.br/ " target="_blank">
+                <img className="image" src="/footer/arvore_negativo.png" alt="Arvore" />
+              </a>
+            </div>
+          </div>
+
+          <div className="col-md-3">
+            <div className={styles.brandHolder}>
+            <h3>Diversidade</h3>
               <a href="https://www.erlef.org/" target="_blank">
                 <img className="image" src="/footer/eef.png" alt="Logo da Erlang Ecosystem Foundation" />
 
