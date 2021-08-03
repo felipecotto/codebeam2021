@@ -8,7 +8,7 @@ export default function Keynotes() {
             name: "Erik Shön", 
             job: "Managing Director @ Erlang Solutions Nordic", 
             description: "What Can Fintech Learn from Telecom? What Are the Jobs to Be Done and What's the Right Tool For the Job?",
-            image: "/PhotoErikSchon.jpg",
+            image: "/keynotes/PhotoErikSchon.jpg",
             showMore: ""
         },
         { 
@@ -16,7 +16,7 @@ export default function Keynotes() {
             name: "Robert Virding", 
             job: "Erlang Co-creator | Senior Systems Architect @ Erlang Solutions", 
             description: "The Platform of the System",
-            image: "/RobertVirding.jpg",
+            image: "/keynotes/RobertVirding.jpg",
             showMore: "https://codesync.global/speaker/robert-virding/"
         },
         { 
@@ -24,7 +24,7 @@ export default function Keynotes() {
             name: "Mariano Guerra", 
             job: "Co-founder @ Instadeq", 
             description: "The Platform of the System",
-            image: "/MarianoGuerra.jpg",
+            image: "/keynotes/MarianoGuerra.jpg",
             showMore: "https://codesync.global/speaker/mariano-guerra/"
         },
         {
@@ -32,7 +32,7 @@ export default function Keynotes() {
             name: "Getty Orawo",
             job: "GirlsGetGeeky Founder  | Elixir/BEAM Africa Coordinator | Software Engineer @ SokowatchGirls",
             description: "Adopting Elixir and Growing the Elixir Community Across Africa",
-            image: "/GettyOrawo.jpg",      
+            image: "/keynotes/GettyOrawo.jpg",      
             showMore: ""
         },
         {
@@ -40,7 +40,7 @@ export default function Keynotes() {
             name: "Okoth Kongo",
             job: "Tech Evangelist @ Beam Kenya and  ElixirConfAfrica ",
             description: "Adopting Elixir and Growing the Elixir Community Across Africa",
-            image: "/OkothKongo.jpg",      
+            image: "/keynotes/OkothKongo.jpg",      
             showMore: ""
         },
         {
@@ -48,7 +48,7 @@ export default function Keynotes() {
             name: "Brooklyn Zelenka",
             job: "CTO @ Fission",
             description: "Living On the Edge",
-            image: "/BrooklynZelenka.jpg",      
+            image: "/keynotes/BrooklynZelenka.jpg",      
             showMore: "https://codesync.global/speaker/brooklyn-zelenka/"
         }
     ];

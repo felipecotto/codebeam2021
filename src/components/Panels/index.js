@@ -3,13 +3,13 @@ import styles from './Panels.module.scss';
 
 export default function Panels() {
     const data = [
-        { id: 1, name: "Adolfo Neto", job: "Host do Elixir em Foco | Professor @ UTFPR ", image: "/adolfo.jpg" },
-        { id: 2, name: "Herminio Torres", job: "Host do Elixir em Foco | Criador do Elixercism | Software Developer @ Solfácil", image: "/herminio.jpg"  },
-        { id: 3, name: "Matheus Pessanha", job: "Host do Elixir em Foco | Backend Developer @ Solfácil", image: "/matheuspessanha.jpg" },
-        { id: 4, name: "Cristine Guadelupe", job: "Host do Elixir em Foco | Developer @ Comadre", image: "/cristine.jpg" },
-        { id: 5, name: "Elaine Naomi", job: "Host do ElixirLab | Software Engineer @ TheRealReal", image: "/elaine.jpg" },
-        { id: 6, name: "Juliana Helena", job: "Host do ElixirLab | Backend Developer @ SumUP ", image: "/juliana.jpg"},
-        { id: 7, name: "Rachel Curioso", job: "Host do ElixirLab | Software Consultant @ Erlang Solutions", image: "/rachel.jpg"},
+        { id: 1, name: "Adolfo Neto", job: "Host do Elixir em Foco | Professor @ UTFPR ", image: "/panels/adolfo.jpg" },
+        { id: 2, name: "Herminio Torres", job: "Host do Elixir em Foco | Criador do Elixercism | Software Developer @ Solfácil", image: "/panels/herminio.jpg"  },
+        { id: 3, name: "Matheus Pessanha", job: "Host do Elixir em Foco | Backend Developer @ Solfácil", image: "/panels/matheuspessanha.jpg" },
+        { id: 4, name: "Cristine Guadelupe", job: "Host do Elixir em Foco | Developer @ Comadre", image: "/panels/cristine.jpg" },
+        { id: 5, name: "Elaine Naomi", job: "Host do ElixirLab | Software Engineer @ TheRealReal", image: "/panels/elaine.jpg" },
+        { id: 6, name: "Juliana Helena", job: "Host do ElixirLab | Backend Developer @ SumUP ", image: "/panels/juliana.jpg"},
+        { id: 7, name: "Rachel Curioso", job: "Host do ElixirLab | Software Consultant @ Erlang Solutions", image: "/panels/rachel.jpg"},
     ];
     return (
         <section id="panels"  className={styles.panels}>

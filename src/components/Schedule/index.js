@@ -4,20 +4,20 @@ import styles from './Schedule.module.scss';
 
 export default function Schedule() {
     const data = [
-        { id: 1, hide: "", time: "09.00 - 10.00", level: "", name: "GETTY ORAWO E OKOTH KONGO", type: "Keynote", talk: "Adopting Elixir and Growing the Elixir Community Across Africa", hide2: "", name2: "", type2: "", talk2: "", level2: "" },
-        { id: 2, hide: "", time: "10.10 - 10.50", level: "Iniciante", name: "Thiago Henrique", type: "", talk: "Ingestão de dados com Elixir distribuido", hide2: "", name2: "Bernardo Amorim", type2: "", talk2: "Elixir sem Mix: Aprendendo a ferramenta ao tentar não utilizá-la", level2: "Avançado" },
-        { id: 3, hide: "", time: "11.00 - 11.40", level: "Iniciante", name: "Fernanda Bernardo", type: "", talk: "De Frontend à Tech Community Manager", hide2: "", name2: "Daniel Pilon", type2: "", talk2: "Diagnosticando Bugs em Produção com Elixir", level2: "Avançado" },
-        { id: 4, hide: "", time: "11.50 - 12.30", level: "Iniciante", name: "Adolfo Neto", type: "", talk: "As funções que não são funções (matemáticas) em Elixir", hide2: "", name2: "Pedro Castilho", type2: "", talk2: "Evoluindo aplicações com OTP", level2: "Avançado" },
-        { id: 5, hide: "", time: "12.40 - 13.10", level: "Iniciante", name: "GETTY ORAWO E OKOTH KONGO", type: "Ask me Anything", talk: "", hide2: "", name2: "", type2: "", talk2: "", level2: "" },
-        { id: 6, hide: "", time: "13.20 - 14.10", level: "", name: "Brooklyn", type: "Keynote", talk: "Living on the edge", hide2: "", name2: "", type2: "", talk2: "", level2: "" },
+        { id: 1, mergecol: "col100", time: "09.00 - 10.00", level: "", name: "GETTY ORAWO E OKOTH KONGO", type: "Keynote", talk: "Adopting Elixir and Growing the Elixir Community Across Africa", mergecol2: "display-none", name2: "", type2: "", talk2: "", level2: "" },
+        { id: 2, mergecol: "", time: "10.10 - 10.50", level: "Iniciante", name: "Thiago Henrique", type: "", talk: "Ingestão de dados com Elixir distribuido", mergecol2: "", name2: "Bernardo Amorim", type2: "", talk2: "Elixir sem Mix: Aprendendo a ferramenta ao tentar não utilizá-la", level2: "Avançado" },
+        { id: 3, mergecol: "", time: "11.00 - 11.40", level: "Iniciante", name: "Fernanda Bernardo", type: "", talk: "De Frontend à Tech Community Manager", mergecol2: "", name2: "Daniel Pilon", type2: "", talk2: "Diagnosticando Bugs em Produção com Elixir", level2: "Avançado" },
+        { id: 4, mergecol: "", time: "11.50 - 12.30", level: "Iniciante", name: "Adolfo Neto", type: "", talk: "As funções que não são funções (matemáticas) em Elixir", mergecol2: "", name2: "Pedro Castilho", type2: "", talk2: "Evoluindo aplicações com OTP", level2: "Avançado" },
+        { id: 5, mergecol: "", time: "12.40 - 13.10", level: "Iniciante", name: "GETTY ORAWO E OKOTH KONGO", type: "Ask me Anything", talk: "", mergecol2: "", name2: "", type2: "", talk2: "", level2: "" },
+        { id: 6, mergecol: "", time: "13.20 - 14.10", level: "colorred", name: "Brooklyn", type: "Keynote", talk: "Living on the edge", mergecol2: "", name2: "", type2: "", talk2: "", level2: "" },
     ];
     const data2 = [
-        { id: 1, hide: "", time: "09.00 - 09.50", level: "", name: "Erick Schön", type: "Keynote", talk: "What can Fintech learn from Telecom", hide2: "", name2: "", type2: "", talk2: "", level2: "" },
-        { id: 2, hide: "", time: "10.00 - 10.30", level: "", name: "José Valim", type: "Ask me Anything", talk: "", hide2: "", name2: "", type2: "", talk2: "", level2: "" },
-        { id: 3, hide: "", time: "10.40 - 11.20", level: "Iniciante", name: "Morôni Sauner", type: "", talk: "Testando sua aplicação com ExUnit", hide2: "", name2: "Willian Frantz", type2: "", talk2: "Meta programação com Elixir", level2: "Avançado" },
-        { id: 4, hide: "", time: "11.30 - 12.10", level: "Iniciante", name: "Elixir lab + Elixir em Foco", type: "Painel", talk: "Disseminando Elixir para a comunidade: desafios e aprendizados", hide2: "", name2: "", type2: "", talk2: "", level2: "" },
-        { id: 5, hide: "", time: "12.20 - 13.00", level: "Iniciante", name: "Guilherme Castro", type: "", talk: "Porque e como construimos markdown parser em Elixir", hide2: "", name2: "Samanta de Araujo", type2: "", talk2: "Onboarding no Ecossistema Elixir", level2: "Iniciante" },
-        { id: 5, hide: "", time: "13.10 - 14.00", level: "", name: "Robert Virding e Mariano Guerra", type: "Keynote", talk: "The platform of the system", hide2: "", name2: "", type2: "", talk2: "", level2: "" },
+        { id: 1, mergecol: "", time: "09.00 - 09.50", level: "", name: "Erick Schön", type: "Keynote", talk: "What can Fintech learn from Telecom", mergecol2: "", name2: "", type2: "", talk2: "", level2: "" },
+        { id: 2, mergecol: "", time: "10.00 - 10.30", level: "", name: "José Valim", type: "Ask me Anything", talk: "", mergecol2: "", name2: "", type2: "", talk2: "", level2: "" },
+        { id: 3, mergecol: "", time: "10.40 - 11.20", level: "Iniciante", name: "Morôni Sauner", type: "", talk: "Testando sua aplicação com ExUnit", mergecol2: "", name2: "Willian Frantz", type2: "", talk2: "Meta programação com Elixir", level2: "Avançado" },
+        { id: 4, mergecol: "", time: "11.30 - 12.10", level: "Iniciante", name: "Elixir lab + Elixir em Foco", type: "Painel", talk: "Disseminando Elixir para a comunidade: desafios e aprendizados", mergecol2: "", name2: "", type2: "", talk2: "", level2: "" },
+        { id: 5, mergecol: "", time: "12.20 - 13.00", level: "Iniciante", name: "Guilherme Castro", type: "", talk: "Porque e como construimos markdown parser em Elixir", mergecol2: "", name2: "Samanta de Araujo", type2: "", talk2: "Onboarding no Ecossistema Elixir", level2: "Iniciante" },
+        { id: 5, mergecol: "", time: "13.10 - 14.00", level: "", name: "Robert Virding e Mariano Guerra", type: "Keynote", talk: "The platform of the system", mergecol2: "", name2: "", type2: "", talk2: "", level2: "" },
     ];
     return (
         <section id="schedule" className={styles.schedule}>
@@ -58,7 +58,7 @@ export default function Schedule() {
                                                             </p>
                                                         </div>
                                                     </td>
-                                                    <td className={styles.aligntop}>
+                                                    <td className={styles.aligntop, item.mergecol}>
                                                     <div className={styles.verticalborder}>
 
                                                         <p className={styles.name}>
@@ -67,11 +67,13 @@ export default function Schedule() {
                                                         <p className={styles.heading, styles.headingmedium}>{item.type}</p>
                                                         <p className={styles.mono, styles.medium, styles.light, styles.pt00, styles.mt10}>{item.talk} </p>
                                                         <p className={styles.gray}>
-                                                            {item.level}
+                                                                {item.level}
                                                         </p>
+
+                                                       
                                                         </div>
                                                     </td>
-                                                    <td className={styles.aligntop}>
+                                                    <td className={styles.aligntop, item.mergecol2}>
                                                         <p className={styles.name}>
                                                             {item.name2}
                                                         </p>
