@@ -35,165 +35,75 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-
-
-      
-  
-        <section id="schedule" className={styles.schedule}>
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-12">
-                        <h3>Agenda</h3>
-                        <div className="days-holder">
-
-                            <a className="daytrigger" data-toggle="collapse" href="#firstDay" role="button" aria-expanded="false" aria-controls="secondDay">
-                                Dia 1 - 05 AG0 2021 - QUINTA
-                            </a>
-
-                            <div className="collapse show" id="firstDay">
-                                <div className="card card-body">
-
-                                    <table className={styles.tabcontent}>
-                                        <thead>
-                                            <tr>
-                                                <th>
-                                                    <p>Horário</p>
-                                                </th>
-                                                <th>
-                                                    <p>Track 1</p>
-                                                </th>
-                                                <th>
-                                                    <p>Track 2</p>
-                                                </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                          
-                                                <tr className={styles.bodyrow}>
-                                                    <td>
-                                                        <div className={styles.timeborder}>
-                                                            <p className={styles.time}>
-                                                                09.00 - 10.00
-                                                            </p>
-                                                        </div>
-                                                    </td>
-                                                    <td className={styles.aligntop}>
-                                                    <div className={styles.verticalborder}>
-
-                                                        <p className={styles.name}>
-                                                            nome aqui
-                                                        </p>
-                                                        <p className={styles.heading, styles.headingmedium}>keynote</p>
-                                                        <p className={styles.mono, styles.medium, styles.light, styles.pt00, styles.mt10}>palestra maneira</p>
-                                                        <p className={styles.gray}>
-                                                                iniciante
-                                                        </p>
-
-                                                       
-                                                        </div>
-                                                    </td>
-                                                    <td className={styles.aligntop}>
-                                                        <p className={styles.name}>
-                                                            outro nome
-                                                        </p>
-                                                        <p className={styles.heading, styles.headingmedium}>palestra</p>
-                                                        <p className={styles.mono, styles.medium, styles.light, styles.pt00, styles.mt10}> palestra mais maneira ainda </p>
-                                                        <p className={styles.gray}>
-                                                            iniciante
-                                                        </p>
-                                                    </td>
-                                                </tr>
-
-                                            ))}
-                                        </tbody>
-                                    </table>
-
-                                </div>
-                            </div>
-
-                            <a className="daytrigger" data-toggle="collapse" href="#secondDay" role="button" aria-expanded="false" aria-controls="secondDay">
-                                Dia 2 - 06 AG0 2021 - SEXTA
-                            </a>
-                            <div className="collapse show" id="secondDay">
-                                <div class="card card-body">
-
-                                    <table className={styles.tabcontent}>
-                                        <thead>
-                                            <tr>
-                                                <th>
-                                                    <p>Horário</p>
-                                                </th>
-                                                <th>
-                                                    <p>Track 1</p>
-                                                </th>
-                                                <th>
-                                                    <p>Track 2</p>
-                                                </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                           
-                                                <tr className={styles.bodyrow}>
-                                                    <td>
-                                                        <div className={styles.timeborder}>
-                                                            <p className={styles.time}>
-                                                                09.00 - 10.00
-                                                            </p>
-                                                        </div>
-                                                    </td>
-                                                    <td className={styles.aligntop}>
-                                                        <div className={styles.verticalborder}>
-
-                                                            <p className={styles.name}>
-                                                                thais
-                                                            </p>
-                                                            <p className={styles.heading, styles.headingmedium}>Palestra foda</p>
-                                                            <p className={styles.mono, styles.medium, styles.light, styles.pt00, styles.mt10}> unica palestra </p>
-                                                            <p className={styles.gray}>
-                                                                avançado
-                                                            </p>
-                                                        </div>
-
-                                                    </td>
-                                                    <td className={styles.aligntop}>
-                                                        <p className={styles.name}>
-                                                            thais
-                                                        </p>
-                                                        <p className={styles.heading, styles.headingmedium}>esporro</p>
-                                                        <p className={styles.mono, styles.medium, styles.light, styles.pt00, styles.mt10}>aprenda fazendo </p>
-                                                        <p className={styles.gray}>
-                                                            iniciante
-                                                        </p>
-                                                    </td>
-                                                </tr>
-
-                                            ))}
-                                        </tbody>
-                                    </table>
-
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    )
-}
-
-
-
-
-
-
       <HeroBanner />
       <Keynotes />
       <Talks />
       <Panels />
       <Schedule />
       <Tickets />
+
+      <section className={styles.postsContainer}>
+        <div className="container">
+          <div className={styles.title}>
+            <h2>Edições Anteriores</h2>
+            <h2>2020</h2>
+          </div>
+
+          <div className="row d-flex-wrap">
+          {props.data.slice(0,limitVideos).map((project) => {
+          return (
+            <div className="col-md-3">
+              <article className={styles.postsContainer__post} key={project.id}>
+                <Link href={`/video/${encodeURIComponent(project.id)}`}>
+                  <div style={{ marginBottom: '24px' }}>
+                    <Image
+                      src={project.img}
+                      alt="Picture of the author"
+                      width={500}
+                      height={420}/>
+                  </div>
+                </Link>
+                <Link href={`/video/${encodeURIComponent(project.id)}`}>
+                  <a>{project.palestra}</a>
+                </Link>
+                <h4>{project.nome}</h4>
+                <div className={styles.socialShare}>
+                  <p>Compartilhe</p>
+                  <FacebookShareButton 
+                    quote="Code Beam BR - A Code Beam chegou ao Brasil!"
+                    url={`https://www.codebeambr.com/video/${project.id}`}>
+                    <FacebookIcon size={32} round={true} round={false} bgStyle={{ fill : '#4EB913' }} />
+                  </FacebookShareButton>
+                  <LinkedinShareButton
+                    title="Code Beam BR - A Code Beam chegou ao Brasil!"
+                   url={`https://www.codebeambr.com/video/${project.id}`}>
+                    <LinkedinIcon size={32} round={true} round={false} bgStyle={{ fill : '#4EB913' }} />
+                  </LinkedinShareButton>
+                  <TwitterShareButton 
+                    title="Code Beam BR - A Code Beam chegou ao Brasil!" 
+                    url={`https://www.codebeambr.com/video/${project.id}`}>
+                    <TwitterIcon size={32} round={true} round={false} bgStyle={{ fill : '#4EB913' }} />
+                  </TwitterShareButton>
+                  <EmailShareButton url={`https://www.codebeambr.com/video/${project.id}`}>
+                    <EmailIcon size={32} round={true} round={false} bgStyle={{ fill : '#4EB913' }} />
+                  </EmailShareButton>
+                </div>
+              </article>
+            </div>
+          )
+        })}
+          </div>
+            {limitVideos <= 17 &&
+              <div className={styles.ShowMore}>
+              <button onClick={() => setLimitVideos(limitVideos + 4)}>
+                Ver Mais
+              </button>
+              </div>
+            } 
+        </div>
+      </section>
+
+
       <Sponsors />
       <Footer />
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

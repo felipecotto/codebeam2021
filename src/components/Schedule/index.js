@@ -58,7 +58,7 @@ export default function Schedule() {
                                                             </p>
                                                         </div>
                                                     </td>
-                                                    <td className={styles.aligntop, item.mergecol}>
+                                                    <td className="col100">
                                                     <div className={styles.verticalborder}>
 
                                                         <p className={styles.name}>
