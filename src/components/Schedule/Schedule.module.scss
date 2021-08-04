@@ -6,17 +6,23 @@
     font-weight: 300
 }
 
-td.display-none {
+td.displaynone {
     display: none;
-}
-td.col100 {
-    width: 100%;
-}
-tbody > tr > td.col100 {
-    width: 100%;
+    background-color: red;
 }
 
-tbody > tr > td.display-none {
+
+tbody > tr > td.displaynone {
+    display: none;
+    background-color: red;
+
+}
+table > tbody > tr > td.displaynone {
+    background-color: red;
+    display: none;
+}
+
+div.card.card-body > table > tbody > tr > td.displaynone {
     display: none;
 }
 
@@ -31,17 +37,28 @@ tbody > tr > td.display-none {
         font-weight: 300
     }
     
-    td.display-none {
+    td.displaynone {
+        display: none;
+        background-color: red;
+
+    }
+    .displaynone {
+        display: none;
+        background-color: red;
+
+    }
+    table > tbody > tr > td.displaynone {
+        background-color: red;
         display: none;
     }
-    td.col100 {
-        width: 100%;
-    }
-    tbody > tr > td.col100 {
-        width: 100%;
-    }
     
-    tbody > tr > td.display-none {
+    div.card.card-body > table > tbody > tr > td.displaynone {
+        display: none;
+    }
+
+    
+    tbody > tr > td.displaynone {
+        background-color: red;
         display: none;
     }
 
@@ -696,34 +713,38 @@ tbody > tr > td.display-none {
       vertical-align: initial;
   } 
   
-  td.display-none {
-    display: none;
-}
-td.col100 {
-    width: 100%;
-}
-tbody > tr > td.col100 {
-    width: 100%;
-}
-
-tbody > tr > td.display-none {
+  td.displaynone {
+    background-color: red;
     display: none;
 }
 
-}
-
-
-td.display-none {
+tbody > tr > td.displaynone {
+    background-color: red;
     display: none;
 }
-td.col100 {
-    width: 100%;
-}
-tbody > tr > td.col100 {
-    width: 100%;
+table > tbody > tr > td.displaynone {
+    background-color: red;
+    display: none;
 }
 
-tbody > tr > td.display-none {
+div.card.card-body > table > tbody > tr > td.displaynone {
+    display: none;
+}
+
+}
+
+
+td.displaynone {
+    background-color: red;
+    display: none;
+}
+
+table > tbody > tr > td.displaynone {
+    background-color: red;
+    display: none;
+}
+
+div.card.card-body > table > tbody > tr > td.displaynone {
     display: none;
 }
 

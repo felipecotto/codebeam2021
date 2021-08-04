@@ -136,3 +136,17 @@ a {
   padding-right: 18px;
   padding-left: 18px;
 }
+
+td.displaynone {
+  background-color: red;
+  display: none;
+}
+
+table > tbody > tr > td.displaynone {
+  background-color: red;
+  display: none;
+}
+
+div.card.card-body > table > tbody > tr > td.displaynone {
+  display: none;
+}
