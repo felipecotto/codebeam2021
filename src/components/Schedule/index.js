@@ -8,16 +8,16 @@ export default function Schedule() {
         { id: 2, mergecol: "", time: "10.10 - 10.50", level: "Iniciante", name: "Thiago Henrique", type: "", talk: "Ingestão de dados com Elixir distribuido", mergecol2: "", name2: "Bernardo Amorim", type2: "", talk2: "Elixir sem Mix: Aprendendo a ferramenta ao tentar não utilizá-la", level2: "Intermediário / Avançado" },
         { id: 3, mergecol: "", time: "11.00 - 11.40", level: "Iniciante", name: "Fernanda Bernardo", type: "", talk: "De Frontend à Tech Community Manager", mergecol2: "", name2: "Daniel Pilon", type2: "", talk2: "Diagnosticando Bugs em Produção com Elixir", level2: "Intermediário / Avançado" },
         { id: 4, mergecol: "", time: "11.50 - 12.30", level: "Iniciante", name: "Adolfo Neto", type: "", talk: "As funções que não são funções (matemáticas) em Elixir", mergecol2: "", name2: "Pedro Castilho", type2: "", talk2: "Evoluindo aplicações com OTP", level2: "Intermediário / Avançado" },
-        { id: 5, mergecol: "", time: "12.40 - 13.10", level: "", name: "GETTY ORAWO E OKOTH KONGO", type: "Ask me Anything", talk: "", mergecol2: "", name2: "", type2: "", talk2: "", level2: "" },
-        { id: 6, mergecol: "", time: "13.20 - 14.10", level: "colorred", name: "BROOKLYN ZELENKA", type: "Keynote", talk: "Living on the edge", mergecol2: "", name2: "", type2: "", talk2: "", level2: "" },
+        { id: 5, mergecol: "2", time: "12.40 - 13.10", level: "", name: "GETTY ORAWO E OKOTH KONGO", type: "Ask me Anything", talk: "", mergecol2: "displaynone", name2: "", type2: "", talk2: "", level2: "" },
+        { id: 6, mergecol: "2", time: "13.20 - 14.10", level: "colorred", name: "BROOKLYN ZELENKA", type: "Keynote", talk: "Living on the edge", mergecol2: "displaynone", name2: "", type2: "", talk2: "", level2: "" },
     ];
     const data2 = [
         { id: 1, mergecolx: "2", time: "09.00 - 09.50", level: "", name: "Erick Schön", type: "Keynote", talk: "What can Fintech learn from Telecom", mergecolx2: "displaynone", name2: "", type2: "", talk2: "", level2: "" },
         { id: 2, mergecolx: "2", time: "10.00 - 10.30", level: "", name: "José Valim", type: "Ask me Anything", talk: "", mergecolx2: "displaynone", name2: "", type2: "", talk2: "", level2: "" },
         { id: 3, mergecolx: "", time: "10.40 - 11.20", level: "Iniciante", name: "Morôni Sauner", type: "", talk: "Testando sua aplicação com ExUnit", mergecolx2: "", name2: "Willian Frantz", type2: "", talk2: "Meta programação com Elixir", level2: "Intermediário / Avançado" },
-        { id: 4, mergecolx: "", time: "11.30 - 12.10", level: "Iniciante", name: "Elixir lab + Elixir em Foco", type: "Painel", talk: "Disseminando Elixir para a comunidade: desafios e aprendizados", mergecolx2: "", name2: "", type2: "", talk2: "", level2: "" },
+        { id: 4, mergecolx: "2", time: "11.30 - 12.10", level: "Iniciante", name: "Elixir lab + Elixir em Foco", type: "Painel", talk: "Disseminando Elixir para a comunidade: desafios e aprendizados", mergecolx2: "displaynone", name2: "", type2: "", talk2: "", level2: "" },
         { id: 5, mergecolx: "", time: "12.20 - 13.00", level: "Iniciante", name: "Guilherme Castro", type: "", talk: "Porque e como construimos markdown parser em Elixir", mergecolx2: "", name2: "Samanta de Araujo", type2: "", talk2: "Onboarding no Ecossistema Elixir", level2: "Iniciante" },
-        { id: 5, mergecolx: "2", time: "13.10 - 14.00", level: "", name: "Robert Virding e Mariano Guerra", type: "Keynote", talk: "The platform of the system", mergecolx2: "displaynone", name2: "", type2: "", talk2: "", level2: "" },
+        { id: 6, mergecolx: "2", time: "13.10 - 14.00", level: "", name: "Robert Virding e Mariano Guerra", type: "Keynote", talk: "The platform of the system", mergecolx2: "displaynone", name2: "", type2: "", talk2: "", level2: "" },
     ];
     return (
         <section id="schedule" className={styles.schedule}>
