@@ -4,6 +4,7 @@ import VideoThumb from '../src/components/VideoThumb'
 import HeroBanner from '../src/components/HeroBanner'
 import Sponsors from '../src/components/Sponsors'
 import Header from '../src/components/Header'
+import Navbar from '../src/components/Navbar';
 import Footer from '../src/components/Footer'
 import Link from 'next/link';
 import Image from 'next/image'
@@ -42,8 +43,8 @@ export default function Home(props) {
       <Schedule />
       <Tickets />
 
-      <section className={styles.postsContainer}>
-        <div className="container">
+      <section classNameName={styles.postsContainer}>
+        <div classNameName="container">
           <div className={styles.title}>
             <h2>Edições Anteriores</h2>
             <h2>2020</h2>

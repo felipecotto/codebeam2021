@@ -11,6 +11,9 @@ export default function Header() {
                     height={44}
                     width={33} /> <span>Code Sync</span>
             </a>
+            <nav className={styles.mainNav, styles.desktop}>
+                <a href="#schedule" className={styles.neutralLink}>Agenda</a>
+            </nav>
         </header >
     )
 }

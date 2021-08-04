@@ -1,5 +1,4 @@
 import styles from './Navbar.module.scss';
-import Image from 'next/image'
 import React, { useState } from "react";
 
 function Navbar() {
@@ -64,7 +63,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                   <a href="#tickets">
-                    Ingressos
+                    Tickets
                   </a>
               </li>
               <li className="nav-item">
