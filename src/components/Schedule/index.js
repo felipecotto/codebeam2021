@@ -9,7 +9,7 @@ export default function Schedule() {
         { id: 3, mergecol: "", time: "11.00 - 11.40", level: "Iniciante", name: "Fernanda Bernardo", type: "", talk: "De Frontend à Tech Community Manager", mergecol2: "", name2: "Daniel Pilon", type2: "", talk2: "Diagnosticando Bugs em Produção com Elixir", level2: "Intermediário / Avançado" },
         { id: 4, mergecol: "", time: "11.50 - 12.30", level: "Iniciante", name: "Adolfo Neto", type: "", talk: "As funções que não são funções (matemáticas) em Elixir", mergecol2: "", name2: "Pedro Castilho", type2: "", talk2: "Evoluindo aplicações com OTP", level2: "Intermediário / Avançado" },
         { id: 5, mergecol: "2", time: "12.40 - 13.10", level: "", name: "GETTY ORAWO E OKOTH KONGO", type: "Ask me Anything", talk: "", mergecol2: "displaynone", name2: "", type2: "", talk2: "", level2: "" },
-        { id: 6, mergecol: "2", time: "13.20 - 14.10", level: "colorred", name: "BROOKLYN ZELENKA", type: "Keynote", talk: "Living on the edge", mergecol2: "displaynone", name2: "", type2: "", talk2: "", level2: "" },
+        { id: 6, mergecol: "2", time: "13.20 - 14.10", level: "", name: "BROOKLYN ZELENKA", type: "Keynote", talk: "Living on the edge", mergecol2: "displaynone", name2: "", type2: "", talk2: "", level2: "" },
     ];
     const data2 = [
         { id: 1, mergecolx: "2", time: "09.00 - 09.50", level: "", name: "Erick Schön", type: "Keynote", talk: "What can Fintech learn from Telecom", mergecolx2: "displaynone", name2: "", type2: "", talk2: "", level2: "" },
