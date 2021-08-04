@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="row">
         <div className="container">
 
-          <div className="col-md-3">
+          <div className="col-md-3 col-sm-6">
             <div className={styles.brandHolder}>
             <h3>Realização</h3>
 
@@ -19,7 +19,7 @@ export default function Footer() {
                   className="image"
                   alt="Logo da Code Sync Global"
                   src="/footer/code-sync-brand.png"
-
+                  width="120"
                 />
               </a>
               <a href="https://www.stone.com.br/?utm_source=code-beam-br&utm_medium=referral" target="_blank">
@@ -27,43 +27,44 @@ export default function Footer() {
                   className="image"
                   alt="Logo da Stone"
                   src="/footer/logo-stone-white.png"
+                  width="120"
                 />
               </a>
             </div>
           </div>
 
-          <div className="col-md-3">
+          <div className="col-md-3 col-sm-6">
             <div className={styles.brandHolder}>
             <h3 className={styles.titledestaque}>Patrocínio</h3>
               <a href="https://www.betrybe.com/" target="_blank">
-                <img className="image" src="/footer/betrybe.png" alt="Be trybe" />
+                <img className="image" src="/footer/betrybe.png" alt="Be trybe" width="120" />
               </a>
               <a href="https://xerpay.com.br/" target="_blank">
-                <img className="image" src="/footer/xerpay.png" alt="Xerpay" />
+                <img className="image" src="/footer/xerpay.png" alt="Xerpay" width="160" />
               </a>
               <a href="https://arvore.com.br/ " target="_blank">
-                <img className="image" src="/footer/arvore_negativo.png" alt="Arvore" />
+                <img className="image" src="/footer/arvore_negativo.png" alt="Arvore" width="120" />
 
               </a>
             </div>
           </div>
 
 
-          <div className="col-md-3">
+          <div className="col-md-3 col-sm-6">
             <div className={styles.brandHolder}>
             <h3>Acessibilidade</h3>
 
               <a href="https://arvore.com.br/ " target="_blank">
-                <img className="image" src="/footer/arvore_negativo.png" alt="Arvore" />
+                <img className="image" src="/footer/arvore_negativo.png" alt="Arvore" width="120" />
               </a>
             </div>
           </div>
 
-          <div className="col-md-3">
+          <div className="col-md-3 col-sm-6">
             <div className={styles.brandHolder}>
             <h3>Diversidade</h3>
               <a href="https://www.erlef.org/" target="_blank">
-                <img className="image" src="/footer/eef.png" alt="Logo da Erlang Ecosystem Foundation" />
+                <img className="image" src="/footer/eef.png" alt="Logo da Erlang Ecosystem Foundation" width="100" />
 
               </a>
             </div>
