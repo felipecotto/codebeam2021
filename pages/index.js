@@ -12,7 +12,6 @@ import styles from '../src/styles/Home.module.scss'
 import db from '../db.json';
 import {  FacebookShareButton, LinkedinShareButton, TwitterShareButton, EmailShareButton } from 'react-share'
 import { FacebookIcon, LinkedinIcon, TwitterIcon, EmailIcon } from 'react-share'
-import Tickets from '../src/components/Tickets';
 import Keynotes from '../src/components/Keynotes';
 import Talks from '../src/components/Talks';
 import Panels from '../src/components/Panels';
@@ -42,7 +41,6 @@ export default function Home(props) {
       <Talks />
       <Panels />
       <Schedule />
-      <Tickets />
 
       <section className={styles.postsContainer}>
         <div className="container">
