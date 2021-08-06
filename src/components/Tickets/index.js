@@ -1,8 +1,8 @@
 import styles from './Tickets.module.scss';
-
+/*** 
 export default function Tickets() {
     return (
-        <section id="tickets" className={styles.tickets}>
+       {  <section id="tickets" className={styles.tickets}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
@@ -31,5 +31,4 @@ export default function Tickets() {
         </section>
     )
 }
-
-
+***/
